@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "nru",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "mundis_id": 10554.0, "nam1": "Administrative unit not available", "nam2": "Administrative unit not available", "popdist": 12668.0, "shrurb": 33.333336, "d_urb": 1.0, "p215ln": 0.47861502331, "p365ln": 8.0674757992499995, "p685ln": 38.318033408700003, "d_pov": 1.0, "shpopfld": null, "d_fld": null, "bws_cat": -8888.0, "d_wtrstr": 1.0, "impsan": null, "sewlat": null, "d_lowsan": 0.0, "tb_fld": null, "tb_wtrstr": 2.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 166.941209200000117, -0.503188799999975 ], [ 166.956742800000029, -0.511328198999934 ], [ 166.949034200000028, -0.546053498999925 ], [ 166.925089700000058, -0.553774398999963 ], [ 166.913140300000123, -0.522630199999981 ], [ 166.941209200000117, -0.503188799999975 ] ] ] } }
+]
+}

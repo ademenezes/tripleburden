@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "bmu",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "mundis_id": 28335.0, "nam1": "Administrative unit not available", "nam2": "Administrative unit not available", "popdist": 63532.0, "shrurb": 88.888893, "d_urb": 1.0, "p215ln": null, "p365ln": null, "p685ln": null, "d_pov": null, "shpopfld": null, "d_fld": null, "bws_cat": -9999.0, "d_wtrstr": null, "impsan": null, "sewlat": null, "d_lowsan": 0.0, "tb_fld": null, "tb_wtrstr": null }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -64.71618019899995, 32.355837 ], [ -64.686597799999959, 32.334961300000032 ], [ -64.778728399999977, 32.271277 ], [ -64.861945099999957, 32.247920400000055 ], [ -64.782930699999952, 32.284878700000036 ], [ -64.805814599999962, 32.302738300000044 ], [ -64.715416699999935, 32.32100470000006 ], [ -64.704212, 32.336945900000046 ], [ -64.71618019899995, 32.355837 ] ] ], [ [ [ -64.686096599999985, 32.371661900000049 ], [ -64.650024599999938, 32.362052300000073 ], [ -64.687157, 32.361838 ], [ -64.686096599999985, 32.371661900000049 ] ] ] ] } }
+]
+}

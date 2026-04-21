@@ -1,0 +1,2942 @@
+[
+  {
+    "iso3": "AFG",
+    "name": "Afghanistan",
+    "districts": 398,
+    "population": 41128771.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "ALB",
+    "name": "Albania",
+    "districts": 374,
+    "population": 2777689.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "DZA",
+    "name": "Algeria",
+    "districts": 1541,
+    "population": 44903225.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "0.0": 1541
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 1494,
+      "0.0": 47
+    }
+  },
+  {
+    "iso3": "ASM",
+    "name": "American Samoa (U.S.)",
+    "districts": 1,
+    "population": 44273.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "AND",
+    "name": "Andorra",
+    "districts": 7,
+    "population": 79824.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "AGO",
+    "name": "Angola",
+    "districts": 164,
+    "population": 35588986.99999999,
+    "pop_triple_burden_flood": 4361700.684413617,
+    "pop_triple_burden_water_stress": 8804348.861885587,
+    "burden_distribution_flood": {
+      "2.0": 139,
+      "3.0": 19,
+      "1.0": 6
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 128,
+      "3.0": 31,
+      "1.0": 4
+    }
+  },
+  {
+    "iso3": "ATG",
+    "name": "Antigua and Barbuda",
+    "districts": 8,
+    "population": 93763.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "EGY",
+    "name": "Arab Republic of Egypt",
+    "districts": 343,
+    "population": 110990103.0,
+    "pop_triple_burden_flood": 3455933.544548552,
+    "pop_triple_burden_water_stress": 3858184.1561065437,
+    "burden_distribution_flood": {
+      "2.0": 233,
+      "1.0": 98,
+      "3.0": 12
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 305,
+      "3.0": 28,
+      "1.0": 5
+    }
+  },
+  {
+    "iso3": "ARG",
+    "name": "Argentina",
+    "districts": 525,
+    "population": 46234830.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "ARM",
+    "name": "Armenia",
+    "districts": 40,
+    "population": 2780469.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "ABW",
+    "name": "Aruba (Neth.)",
+    "districts": 1,
+    "population": 106445.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "AUS",
+    "name": "Australia",
+    "districts": 566,
+    "population": 26005540.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "0.0": 562
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 363,
+      "0.0": 194
+    }
+  },
+  {
+    "iso3": "AUT",
+    "name": "Austria",
+    "districts": 100,
+    "population": 9041851.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "1.0": 99,
+      "0.0": 1
+    },
+    "burden_distribution_water_stress": {
+      "0.0": 95,
+      "1.0": 5
+    }
+  },
+  {
+    "iso3": "AZE",
+    "name": "Azerbaijan",
+    "districts": 74,
+    "population": 10141756.000000002,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "BHR",
+    "name": "Bahrain",
+    "districts": 12,
+    "population": 1472233.0000000002,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "BGD",
+    "name": "Bangladesh",
+    "districts": 64,
+    "population": 171186372.0,
+    "pop_triple_burden_flood": 97160900.89314677,
+    "pop_triple_burden_water_stress": 55560162.97959244,
+    "burden_distribution_flood": {
+      "3.0": 38,
+      "2.0": 26
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 33,
+      "3.0": 19,
+      "1.0": 12
+    }
+  },
+  {
+    "iso3": "BRB",
+    "name": "Barbados",
+    "districts": 11,
+    "population": 281635.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "BLR",
+    "name": "Belarus",
+    "districts": 119,
+    "population": 9228071.000000002,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "BEL",
+    "name": "Belgium",
+    "districts": 11,
+    "population": 11685814.000000002,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "0.0": 6,
+      "1.0": 5
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 11
+    }
+  },
+  {
+    "iso3": "BLZ",
+    "name": "Belize",
+    "districts": 6,
+    "population": 405272.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "BEN",
+    "name": "Benin",
+    "districts": 77,
+    "population": 13352863.999999998,
+    "pop_triple_burden_flood": 7472895.219184782,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "3.0": 46,
+      "2.0": 30,
+      "1.0": 1
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 75,
+      "1.0": 2
+    }
+  },
+  {
+    "iso3": "BMU",
+    "name": "Bermuda (U.K.)",
+    "districts": 1,
+    "population": 63532.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "BTN",
+    "name": "Bhutan",
+    "districts": 205,
+    "population": 782455.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "1.0": 112,
+      "0.0": 74,
+      "2.0": 19
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 122,
+      "0.0": 74,
+      "2.0": 9
+    }
+  },
+  {
+    "iso3": "BOL",
+    "name": "Bolivia",
+    "districts": 113,
+    "population": 12224109.999999998,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "1.0": 87,
+      "2.0": 19,
+      "0.0": 7
+    },
+    "burden_distribution_water_stress": {
+      "0.0": 53,
+      "1.0": 52,
+      "2.0": 8
+    }
+  },
+  {
+    "iso3": "BIH",
+    "name": "Bosnia and Herzegovina",
+    "districts": 81,
+    "population": 3233526.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "BWA",
+    "name": "Botswana",
+    "districts": 10,
+    "population": 2630296.0,
+    "pop_triple_burden_flood": 438469.25998844055,
+    "pop_triple_burden_water_stress": 1841856.767038368,
+    "burden_distribution_flood": {
+      "2.0": 7,
+      "3.0": 3
+    },
+    "burden_distribution_water_stress": {
+      "3.0": 9,
+      "2.0": 1
+    }
+  },
+  {
+    "iso3": "BRA",
+    "name": "Brazil",
+    "districts": 5510,
+    "population": 215313498.0,
+    "pop_triple_burden_flood": 8291211.842534615,
+    "pop_triple_burden_water_stress": 26329636.850080777,
+    "burden_distribution_flood": {
+      "0.0": 1426,
+      "2.0": 966,
+      "3.0": 222,
+      "1.0": 95
+    },
+    "burden_distribution_water_stress": {
+      "0.0": 2870,
+      "2.0": 1214,
+      "1.0": 773,
+      "3.0": 617
+    }
+  },
+  {
+    "iso3": "VGB",
+    "name": "British Virgin Islands (U.K.)",
+    "districts": 5,
+    "population": 31305.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "BRN",
+    "name": "Brunei Darussalam",
+    "districts": 38,
+    "population": 449002.0000000001,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "BGR",
+    "name": "Bulgaria",
+    "districts": 262,
+    "population": 6465097.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "BFA",
+    "name": "Burkina Faso",
+    "districts": 45,
+    "population": 22673762.0,
+    "pop_triple_burden_flood": 16087727.775555186,
+    "pop_triple_burden_water_stress": 7024583.727922996,
+    "burden_distribution_flood": {
+      "3.0": 36,
+      "2.0": 8,
+      "1.0": 1
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 28,
+      "3.0": 17
+    }
+  },
+  {
+    "iso3": "BDI",
+    "name": "Burundi",
+    "districts": 134,
+    "population": 12889576.0,
+    "pop_triple_burden_flood": 2645352.8277232507,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "2.0": 100,
+      "3.0": 30,
+      "1.0": 4
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 115,
+      "1.0": 19
+    }
+  },
+  {
+    "iso3": "CPV",
+    "name": "Cabo Verde",
+    "districts": 22,
+    "population": 593149.0000000001,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "KHM",
+    "name": "Cambodia",
+    "districts": 187,
+    "population": 16767842.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "CMR",
+    "name": "Cameroon",
+    "districts": 58,
+    "population": 27914536.0,
+    "pop_triple_burden_flood": 15255349.885762062,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "2.0": 34,
+      "3.0": 24
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 57
+    }
+  },
+  {
+    "iso3": "CAN",
+    "name": "Canada",
+    "districts": 293,
+    "population": 38929902.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "0.0": 162,
+      "1.0": 121
+    },
+    "burden_distribution_water_stress": {
+      "0.0": 204,
+      "1.0": 71
+    }
+  },
+  {
+    "iso3": "CYM",
+    "name": "Cayman Islands (U.K.)",
+    "districts": 3,
+    "population": 68705.99999999999,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "CAF",
+    "name": "Central African Republic",
+    "districts": 71,
+    "population": 5579144.000000001,
+    "pop_triple_burden_flood": 4057824.9655248797,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "3.0": 45,
+      "2.0": 21,
+      "1.0": 5
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 50,
+      "1.0": 21
+    }
+  },
+  {
+    "iso3": "TCD",
+    "name": "Chad",
+    "districts": 70,
+    "population": 17723315.0,
+    "pop_triple_burden_flood": 12631569.491165467,
+    "pop_triple_burden_water_stress": 4050461.5874876557,
+    "burden_distribution_flood": {
+      "3.0": 42,
+      "2.0": 20,
+      "1.0": 8
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 45,
+      "3.0": 16,
+      "1.0": 9
+    }
+  },
+  {
+    "iso3": "CHL",
+    "name": "Chile",
+    "districts": 52,
+    "population": 19603732.999999996,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "1.0": 31,
+      "0.0": 21
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 37,
+      "0.0": 14
+    }
+  },
+  {
+    "iso3": "CHN",
+    "name": "China",
+    "districts": 345,
+    "population": 1388855224.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "1.0": 292,
+      "0.0": 48,
+      "2.0": 3
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 255,
+      "0.0": 80,
+      "2.0": 7
+    }
+  },
+  {
+    "iso3": "COL",
+    "name": "Colombia",
+    "districts": 1122,
+    "population": 51874024.0,
+    "pop_triple_burden_flood": 15924058.863429284,
+    "pop_triple_burden_water_stress": 2241540.7649464747,
+    "burden_distribution_flood": {
+      "3.0": 458,
+      "2.0": 422,
+      "1.0": 143,
+      "0.0": 24
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 447,
+      "2.0": 434,
+      "0.0": 127,
+      "3.0": 39
+    }
+  },
+  {
+    "iso3": "COM",
+    "name": "Comoros",
+    "districts": 3,
+    "population": 836774.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "COG",
+    "name": "Congo",
+    "districts": 89,
+    "population": 5970424.0,
+    "pop_triple_burden_flood": 3106093.364324553,
+    "pop_triple_burden_water_stress": 537168.0935071091,
+    "burden_distribution_flood": {
+      "2.0": 37,
+      "3.0": 27,
+      "1.0": 10
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 46,
+      "1.0": 41,
+      "3.0": 2
+    }
+  },
+  {
+    "iso3": "CRI",
+    "name": "Costa Rica",
+    "districts": 81,
+    "population": 5180829.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "1.0": 81
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 45,
+      "0.0": 36
+    }
+  },
+  {
+    "iso3": "HRV",
+    "name": "Croatia",
+    "districts": 21,
+    "population": 3855599.9999999995,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "1.0": 21
+    },
+    "burden_distribution_water_stress": {
+      "0.0": 20
+    }
+  },
+  {
+    "iso3": "CUB",
+    "name": "Cuba",
+    "districts": 226,
+    "population": 11212191.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "CUW",
+    "name": "Cura\u00e7ao (Neth.)",
+    "districts": 1,
+    "population": 149996.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "CYP",
+    "name": "Cyprus",
+    "districts": 6,
+    "population": 1251488.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "0.0": 6
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 6
+    }
+  },
+  {
+    "iso3": "CZE",
+    "name": "Czech Republic",
+    "districts": 77,
+    "population": 10672117.999999998,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "1.0": 39,
+      "0.0": 38
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 65,
+      "0.0": 12
+    }
+  },
+  {
+    "iso3": "CIV",
+    "name": "C\u00f4te d'Ivoire",
+    "districts": 33,
+    "population": 28160542.0,
+    "pop_triple_burden_flood": 10540053.586143702,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "3.0": 16,
+      "2.0": 16,
+      "1.0": 1
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 31,
+      "1.0": 2
+    }
+  },
+  {
+    "iso3": "PRK",
+    "name": "D. P. R. of Korea",
+    "districts": 183,
+    "population": 26069416.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "COD",
+    "name": "Democratic Republic of Congo",
+    "districts": 30,
+    "population": 99010211.99999999,
+    "pop_triple_burden_flood": 53709997.07327632,
+    "pop_triple_burden_water_stress": 6748301.798876872,
+    "burden_distribution_flood": {
+      "2.0": 15,
+      "3.0": 15
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 29,
+      "3.0": 1
+    }
+  },
+  {
+    "iso3": "DNK",
+    "name": "Denmark",
+    "districts": 99,
+    "population": 5903037.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {
+      "1.0": 75,
+      "0.0": 23
+    }
+  },
+  {
+    "iso3": "DJI",
+    "name": "Djibouti",
+    "districts": 11,
+    "population": 1120849.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "DMA",
+    "name": "Dominica",
+    "districts": 10,
+    "population": 72736.99999999999,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "DOM",
+    "name": "Dominican Republic",
+    "districts": 162,
+    "population": 11228821.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {
+      "1.0": 161,
+      "2.0": 1
+    }
+  },
+  {
+    "iso3": "ECU",
+    "name": "Ecuador",
+    "districts": 224,
+    "population": 18215419.25952172,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "2.0": 134,
+      "1.0": 90
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 123,
+      "0.0": 68,
+      "2.0": 30
+    }
+  },
+  {
+    "iso3": "SLV",
+    "name": "El Salvador",
+    "districts": 262,
+    "population": 6336391.999999999,
+    "pop_triple_burden_flood": 1367633.2388293594,
+    "pop_triple_burden_water_stress": 1478365.123233174,
+    "burden_distribution_flood": {
+      "2.0": 158,
+      "3.0": 80,
+      "1.0": 18,
+      "0.0": 6
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 147,
+      "3.0": 90,
+      "1.0": 23
+    }
+  },
+  {
+    "iso3": "GNQ",
+    "name": "Equatorial Guinea",
+    "districts": 7,
+    "population": 1674908.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "ERI",
+    "name": "Eritrea",
+    "districts": 58,
+    "population": 3684032.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "EST",
+    "name": "Estonia",
+    "districts": 230,
+    "population": 1348840.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "0.0": 230
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 124,
+      "0.0": 100
+    }
+  },
+  {
+    "iso3": "SWZ",
+    "name": "Eswatini",
+    "districts": 53,
+    "population": 1201670.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 41470.65079285878,
+    "burden_distribution_flood": {
+      "1.0": 34,
+      "2.0": 19
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 26,
+      "2.0": 24,
+      "3.0": 3
+    }
+  },
+  {
+    "iso3": "ETH",
+    "name": "Ethiopia",
+    "districts": 74,
+    "population": 122145731.01309489,
+    "pop_triple_burden_flood": 3462897.8402319406,
+    "pop_triple_burden_water_stress": 23505988.956673183,
+    "burden_distribution_flood": {
+      "2.0": 64,
+      "3.0": 9
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 60,
+      "3.0": 13
+    }
+  },
+  {
+    "iso3": "FRO",
+    "name": "Faroe Islands (Den.)",
+    "districts": 1,
+    "population": 53090.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "FSM",
+    "name": "Federated States of Micronesia",
+    "districts": 1,
+    "population": 114164.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "FJI",
+    "name": "Fiji",
+    "districts": 15,
+    "population": 929765.9999999999,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "FIN",
+    "name": "Finland",
+    "districts": 20,
+    "population": 5556106.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "0.0": 20
+    },
+    "burden_distribution_water_stress": {
+      "0.0": 11,
+      "1.0": 7
+    }
+  },
+  {
+    "iso3": "FRA",
+    "name": "France",
+    "districts": 107,
+    "population": 67971311.00000001,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "1.0": 75,
+      "0.0": 21
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 65,
+      "0.0": 31
+    }
+  },
+  {
+    "iso3": "PYF",
+    "name": "French Polynesia (Fr.)",
+    "districts": 1,
+    "population": 306279.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "GAB",
+    "name": "Gabon",
+    "districts": 48,
+    "population": 2388992.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "1.0": 21,
+      "2.0": 18,
+      "0.0": 5
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 36,
+      "0.0": 12
+    }
+  },
+  {
+    "iso3": "GEO",
+    "name": "Georgia",
+    "districts": 79,
+    "population": 3712502.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "DEU",
+    "name": "Germany",
+    "districts": 33,
+    "population": 83797985.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "1.0": 28,
+      "0.0": 5
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 22,
+      "0.0": 11
+    }
+  },
+  {
+    "iso3": "GHA",
+    "name": "Ghana",
+    "districts": 217,
+    "population": 33475870.0,
+    "pop_triple_burden_flood": 11619068.531888073,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "2.0": 100,
+      "3.0": 84,
+      "1.0": 33
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 135,
+      "1.0": 82
+    }
+  },
+  {
+    "iso3": "GIB",
+    "name": "Gibraltar (U.K.)",
+    "districts": 1,
+    "population": 32649.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "GRC",
+    "name": "Greece",
+    "districts": 56,
+    "population": 10426919.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "1.0": 42,
+      "0.0": 14
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 54
+    }
+  },
+  {
+    "iso3": "GRL",
+    "name": "Greenland (Den.)",
+    "districts": 3,
+    "population": 56661.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "GRD",
+    "name": "Grenada",
+    "districts": 7,
+    "population": 125437.99999999999,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "GUM",
+    "name": "Guam (U.S.)",
+    "districts": 1,
+    "population": 171774.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "GTM",
+    "name": "Guatemala",
+    "districts": 336,
+    "population": 17357886.0,
+    "pop_triple_burden_flood": 523749.1148257396,
+    "pop_triple_burden_water_stress": 546199.4434047691,
+    "burden_distribution_flood": {
+      "1.0": 179,
+      "2.0": 140,
+      "3.0": 17
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 208,
+      "2.0": 113,
+      "3.0": 15
+    }
+  },
+  {
+    "iso3": "CHI",
+    "name": "Guernsey (U.K.)",
+    "districts": 29,
+    "population": 174078.99999999997,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "GIN",
+    "name": "Guinea",
+    "districts": 38,
+    "population": 13859341.0,
+    "pop_triple_burden_flood": 9777961.695270723,
+    "pop_triple_burden_water_stress": 1964364.2807640836,
+    "burden_distribution_flood": {
+      "3.0": 25,
+      "2.0": 13
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 28,
+      "3.0": 5,
+      "1.0": 5
+    }
+  },
+  {
+    "iso3": "GNB",
+    "name": "Guinea-Bissau",
+    "districts": 39,
+    "population": 2105566.0,
+    "pop_triple_burden_flood": 2050834.7949721685,
+    "pop_triple_burden_water_stress": 137453.54034739014,
+    "burden_distribution_flood": {
+      "3.0": 33,
+      "2.0": 6
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 28,
+      "1.0": 5,
+      "3.0": 3
+    }
+  },
+  {
+    "iso3": "GUY",
+    "name": "Guyana",
+    "districts": 26,
+    "population": 808726.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "1.0": 21,
+      "2.0": 5
+    },
+    "burden_distribution_water_stress": {
+      "0.0": 16,
+      "1.0": 10
+    }
+  },
+  {
+    "iso3": "HTI",
+    "name": "Haiti",
+    "districts": 42,
+    "population": 11584996.0,
+    "pop_triple_burden_flood": 8491313.808725117,
+    "pop_triple_burden_water_stress": 11104355.888814606,
+    "burden_distribution_flood": {
+      "3.0": 25,
+      "2.0": 16,
+      "1.0": 1
+    },
+    "burden_distribution_water_stress": {
+      "3.0": 39,
+      "2.0": 3
+    }
+  },
+  {
+    "iso3": "HND",
+    "name": "Honduras",
+    "districts": 291,
+    "population": 10432860.0,
+    "pop_triple_burden_flood": 1467021.0348618191,
+    "pop_triple_burden_water_stress": 379091.186551458,
+    "burden_distribution_flood": {
+      "2.0": 181,
+      "3.0": 59,
+      "1.0": 49
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 168,
+      "1.0": 89,
+      "3.0": 33
+    }
+  },
+  {
+    "iso3": "HKG",
+    "name": "Hong Kong, SAR",
+    "districts": 1,
+    "population": 7346100.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "HUN",
+    "name": "Hungary",
+    "districts": 20,
+    "population": 9643048.000000002,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "1.0": 18,
+      "0.0": 2
+    },
+    "burden_distribution_water_stress": {
+      "0.0": 17,
+      "1.0": 3
+    }
+  },
+  {
+    "iso3": "ISL",
+    "name": "Iceland",
+    "districts": 23,
+    "population": 382003.00000000006,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "1.0": 23
+    },
+    "burden_distribution_water_stress": {
+      "0.0": 22
+    }
+  },
+  {
+    "iso3": "IND",
+    "name": "India",
+    "districts": 705,
+    "population": 1417173173.0,
+    "pop_triple_burden_flood": 472078623.8456601,
+    "pop_triple_burden_water_stress": 454945750.9999436,
+    "burden_distribution_flood": {
+      "2.0": 433,
+      "3.0": 206,
+      "1.0": 65
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 418,
+      "3.0": 192,
+      "1.0": 89
+    }
+  },
+  {
+    "iso3": "IDN",
+    "name": "Indonesia",
+    "districts": 443,
+    "population": 275501339.0,
+    "pop_triple_burden_flood": 76109537.5062014,
+    "pop_triple_burden_water_stress": 39322096.27300703,
+    "burden_distribution_flood": {
+      "2.0": 275,
+      "3.0": 153,
+      "1.0": 15
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 266,
+      "1.0": 122,
+      "3.0": 35
+    }
+  },
+  {
+    "iso3": "IRQ",
+    "name": "Iraq",
+    "districts": 109,
+    "population": 44496122.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "1.0": 67,
+      "2.0": 28,
+      "0.0": 14
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 78,
+      "2.0": 25,
+      "0.0": 6
+    }
+  },
+  {
+    "iso3": "IRL",
+    "name": "Ireland",
+    "districts": 26,
+    "population": 5127170.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "0.0": 26
+    },
+    "burden_distribution_water_stress": {
+      "0.0": 21,
+      "1.0": 5
+    }
+  },
+  {
+    "iso3": "IRN",
+    "name": "Islamic Republic of Iran",
+    "districts": 280,
+    "population": 88550570.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "IMN",
+    "name": "Isle of Man (U.K.)",
+    "districts": 24,
+    "population": 84519.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "ISR",
+    "name": "Israel",
+    "districts": 6,
+    "population": 9557500.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "0.0": 6
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 5,
+      "0.0": 1
+    }
+  },
+  {
+    "iso3": "ITA",
+    "name": "Italy",
+    "districts": 103,
+    "population": 58940425.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "0.0": 57,
+      "1.0": 46
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 83,
+      "0.0": 17
+    }
+  },
+  {
+    "iso3": "JAM",
+    "name": "Jamaica",
+    "districts": 13,
+    "population": 2827377.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "JPN",
+    "name": "Japan",
+    "districts": 3347,
+    "population": 125124989.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "1.0": 3347
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 2730,
+      "0.0": 388
+    }
+  },
+  {
+    "iso3": "JOR",
+    "name": "Jordan",
+    "districts": 58,
+    "population": 11285869.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {
+      "1.0": 51,
+      "0.0": 7
+    }
+  },
+  {
+    "iso3": "KAZ",
+    "name": "Kazakhstan",
+    "districts": 173,
+    "population": 19621972.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "KEN",
+    "name": "Kenya",
+    "districts": 47,
+    "population": 54027487.0,
+    "pop_triple_burden_flood": 11613928.780183535,
+    "pop_triple_burden_water_stress": 9425215.568128984,
+    "burden_distribution_flood": {
+      "2.0": 35,
+      "3.0": 11
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 35,
+      "3.0": 11
+    }
+  },
+  {
+    "iso3": "KIR",
+    "name": "Kiribati",
+    "districts": 1,
+    "population": 131232.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "XKX",
+    "name": "Kosovo",
+    "districts": 38,
+    "population": 1761984.9999999998,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "KWT",
+    "name": "Kuwait",
+    "districts": 5,
+    "population": 4268872.999999999,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "KGZ",
+    "name": "Kyrgyz Republic",
+    "districts": 40,
+    "population": 6974900.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "1.0": 28,
+      "2.0": 12
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 33,
+      "1.0": 7
+    }
+  },
+  {
+    "iso3": "LAO",
+    "name": "Lao People's Democratic Republic",
+    "districts": 148,
+    "population": 7529475.0,
+    "pop_triple_burden_flood": 5607649.5609209705,
+    "pop_triple_burden_water_stress": 1686173.828551332,
+    "burden_distribution_flood": {
+      "3.0": 121,
+      "2.0": 27
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 90,
+      "3.0": 37,
+      "1.0": 21
+    }
+  },
+  {
+    "iso3": "LVA",
+    "name": "Latvia",
+    "districts": 587,
+    "population": 1879383.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "1.0": 587
+    },
+    "burden_distribution_water_stress": {
+      "0.0": 447,
+      "1.0": 105
+    }
+  },
+  {
+    "iso3": "LBN",
+    "name": "Lebanon",
+    "districts": 26,
+    "population": 5489739.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "LSO",
+    "name": "Lesotho",
+    "districts": 247,
+    "population": 2305825.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "LBR",
+    "name": "Liberia",
+    "districts": 136,
+    "population": 5302681.0,
+    "pop_triple_burden_flood": 4020461.8001594613,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "2.0": 71,
+      "3.0": 65
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 71,
+      "2.0": 65
+    }
+  },
+  {
+    "iso3": "LBY",
+    "name": "Libya",
+    "districts": 25,
+    "population": 6812341.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "LIE",
+    "name": "Liechtenstein",
+    "districts": 11,
+    "population": 39327.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "LTU",
+    "name": "Lithuania",
+    "districts": 55,
+    "population": 2831639.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "0.0": 55
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 41,
+      "0.0": 14
+    }
+  },
+  {
+    "iso3": "LUX",
+    "name": "Luxembourg",
+    "districts": 12,
+    "population": 653103.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "0.0": 12
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 12
+    }
+  },
+  {
+    "iso3": "MAC",
+    "name": "Macau, SAR",
+    "districts": 1,
+    "population": 695168.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "MDG",
+    "name": "Madagascar",
+    "districts": 119,
+    "population": 29611714.0,
+    "pop_triple_burden_flood": 4158721.983828825,
+    "pop_triple_burden_water_stress": 1971462.5923263745,
+    "burden_distribution_flood": {
+      "2.0": 81,
+      "1.0": 23,
+      "3.0": 15
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 68,
+      "2.0": 43,
+      "3.0": 7
+    }
+  },
+  {
+    "iso3": "MWI",
+    "name": "Malawi",
+    "districts": 29,
+    "population": 20405317.000000004,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "MYS",
+    "name": "Malaysia",
+    "districts": 133,
+    "population": 33938221.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "MDV",
+    "name": "Maldives",
+    "districts": 20,
+    "population": 523787.00000000006,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "MLI",
+    "name": "Mali",
+    "districts": 53,
+    "population": 22854839.38762688,
+    "pop_triple_burden_flood": 19589581.816114422,
+    "pop_triple_burden_water_stress": 5510358.502738672,
+    "burden_distribution_flood": {
+      "3.0": 48,
+      "1.0": 4,
+      "2.0": 1
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 33,
+      "3.0": 19,
+      "1.0": 1
+    }
+  },
+  {
+    "iso3": "MLT",
+    "name": "Malta",
+    "districts": 67,
+    "population": 531113.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "0.0": 67
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 66
+    }
+  },
+  {
+    "iso3": "MHL",
+    "name": "Marshall Islands",
+    "districts": 1,
+    "population": 41569.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "MRT",
+    "name": "Mauritania",
+    "districts": 44,
+    "population": 4736139.000000001,
+    "pop_triple_burden_flood": 2202445.1110755345,
+    "pop_triple_burden_water_stress": 2624781.2881337344,
+    "burden_distribution_flood": {
+      "3.0": 26,
+      "2.0": 15,
+      "1.0": 3
+    },
+    "burden_distribution_water_stress": {
+      "3.0": 35,
+      "2.0": 9
+    }
+  },
+  {
+    "iso3": "MUS",
+    "name": "Mauritius",
+    "districts": 10,
+    "population": 1262523.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "MEX",
+    "name": "Mexico",
+    "districts": 1891,
+    "population": 127504125.0,
+    "pop_triple_burden_flood": 7985246.342172172,
+    "pop_triple_burden_water_stress": 7627196.535452616,
+    "burden_distribution_flood": {
+      "2.0": 831,
+      "1.0": 642,
+      "0.0": 218,
+      "3.0": 199
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 877,
+      "2.0": 683,
+      "3.0": 232,
+      "0.0": 37
+    }
+  },
+  {
+    "iso3": "MDA",
+    "name": "Moldova",
+    "districts": 37,
+    "population": 2538894.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "MCO",
+    "name": "Monaco",
+    "districts": 1,
+    "population": 36469.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "MNG",
+    "name": "Mongolia",
+    "districts": 336,
+    "population": 3398366.0,
+    "pop_triple_burden_flood": 194081.43699095276,
+    "pop_triple_burden_water_stress": 565459.1828337299,
+    "burden_distribution_flood": {
+      "2.0": 205,
+      "1.0": 81,
+      "3.0": 40,
+      "0.0": 10
+    },
+    "burden_distribution_water_stress": {
+      "3.0": 141,
+      "2.0": 130,
+      "1.0": 64,
+      "0.0": 1
+    }
+  },
+  {
+    "iso3": "MNE",
+    "name": "Montenegro",
+    "districts": 21,
+    "population": 617212.9999999998,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "MAR",
+    "name": "Morocco",
+    "districts": 71,
+    "population": 37457971.00000001,
+    "pop_triple_burden_flood": 2026437.5873065307,
+    "pop_triple_burden_water_stress": 17334276.45887489,
+    "burden_distribution_flood": {
+      "2.0": 39,
+      "1.0": 22,
+      "0.0": 7,
+      "3.0": 3
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 32,
+      "3.0": 32,
+      "1.0": 7
+    }
+  },
+  {
+    "iso3": "MOZ",
+    "name": "Mozambique",
+    "districts": 154,
+    "population": 32969518.0,
+    "pop_triple_burden_flood": 12034881.828686308,
+    "pop_triple_burden_water_stress": 753246.0721219734,
+    "burden_distribution_flood": {
+      "2.0": 87,
+      "3.0": 51,
+      "1.0": 16
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 120,
+      "1.0": 26,
+      "3.0": 8
+    }
+  },
+  {
+    "iso3": "MMR",
+    "name": "Myanmar",
+    "districts": 70,
+    "population": 54179306.00000001,
+    "pop_triple_burden_flood": 48701736.696651846,
+    "pop_triple_burden_water_stress": 25873641.995835055,
+    "burden_distribution_flood": {
+      "3.0": 60,
+      "2.0": 10
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 37,
+      "3.0": 23,
+      "1.0": 7
+    }
+  },
+  {
+    "iso3": "NAM",
+    "name": "Namibia",
+    "districts": 107,
+    "population": 2567012.0,
+    "pop_triple_burden_flood": 1143499.2223742392,
+    "pop_triple_burden_water_stress": 1770302.3698867091,
+    "burden_distribution_flood": {
+      "3.0": 51,
+      "2.0": 44,
+      "0.0": 9,
+      "1.0": 3
+    },
+    "burden_distribution_water_stress": {
+      "3.0": 82,
+      "2.0": 15,
+      "1.0": 10
+    }
+  },
+  {
+    "iso3": "NRU",
+    "name": "Nauru",
+    "districts": 1,
+    "population": 12668.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {
+      "2.0": 1
+    }
+  },
+  {
+    "iso3": "NPL",
+    "name": "Nepal",
+    "districts": 77,
+    "population": 30547580.0,
+    "pop_triple_burden_flood": 539099.3326456,
+    "pop_triple_burden_water_stress": 399257.2501537352,
+    "burden_distribution_flood": {
+      "2.0": 74,
+      "3.0": 3
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 53,
+      "1.0": 22,
+      "3.0": 2
+    }
+  },
+  {
+    "iso3": "NLD",
+    "name": "Netherlands",
+    "districts": 12,
+    "population": 17700981.999999996,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "1.0": 12
+    },
+    "burden_distribution_water_stress": {
+      "0.0": 7,
+      "1.0": 5
+    }
+  },
+  {
+    "iso3": "NCL",
+    "name": "New Caledonia (Fr.)",
+    "districts": 1,
+    "population": 269220.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "NZL",
+    "name": "New Zealand",
+    "districts": 14,
+    "population": 5124100.000000002,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "NIC",
+    "name": "Nicaragua",
+    "districts": 153,
+    "population": 6948391.999999998,
+    "pop_triple_burden_flood": 1665441.5402121954,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "2.0": 90,
+      "3.0": 43,
+      "1.0": 20
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 86,
+      "1.0": 65
+    }
+  },
+  {
+    "iso3": "NER",
+    "name": "Niger",
+    "districts": 38,
+    "population": 26207977.0,
+    "pop_triple_burden_flood": 8607883.839797156,
+    "pop_triple_burden_water_stress": 23428814.959908087,
+    "burden_distribution_flood": {
+      "2.0": 22,
+      "3.0": 15,
+      "1.0": 1
+    },
+    "burden_distribution_water_stress": {
+      "3.0": 31,
+      "2.0": 6,
+      "1.0": 1
+    }
+  },
+  {
+    "iso3": "NGA",
+    "name": "Nigeria",
+    "districts": 775,
+    "population": 220527045.06330013,
+    "pop_triple_burden_flood": 111286973.12433141,
+    "pop_triple_burden_water_stress": 38097224.028303884,
+    "burden_distribution_flood": {
+      "3.0": 419,
+      "2.0": 314,
+      "1.0": 14
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 556,
+      "3.0": 139,
+      "1.0": 24
+    }
+  },
+  {
+    "iso3": "MKD",
+    "name": "North Macedonia",
+    "districts": 84,
+    "population": 2057679.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "MNP",
+    "name": "Northern Mariana Islands (U.S.)",
+    "districts": 1,
+    "population": 49551.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "NOR",
+    "name": "Norway",
+    "districts": 435,
+    "population": 5457127.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "0.0": 435
+    },
+    "burden_distribution_water_stress": {
+      "0.0": 358,
+      "1.0": 21
+    }
+  },
+  {
+    "iso3": "OMN",
+    "name": "Oman",
+    "districts": 50,
+    "population": 4576297.999999999,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "PAK",
+    "name": "Pakistan",
+    "districts": 158,
+    "population": 241459145.77735907,
+    "pop_triple_burden_flood": 28191522.740238186,
+    "pop_triple_burden_water_stress": 25257126.198365886,
+    "burden_distribution_flood": {
+      "2.0": 122,
+      "3.0": 14
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 96,
+      "1.0": 26,
+      "3.0": 13
+    }
+  },
+  {
+    "iso3": "PLW",
+    "name": "Palau",
+    "districts": 1,
+    "population": 18055.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "PAN",
+    "name": "Panama",
+    "districts": 76,
+    "population": 4408580.999999999,
+    "pop_triple_burden_flood": 14189.935945197054,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "1.0": 34,
+      "2.0": 27,
+      "0.0": 13,
+      "3.0": 2
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 38,
+      "0.0": 24,
+      "2.0": 12
+    }
+  },
+  {
+    "iso3": "PNG",
+    "name": "Papua New Guinea",
+    "districts": 87,
+    "population": 10142619.000000004,
+    "pop_triple_burden_flood": 4484710.013115661,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "3.0": 46,
+      "2.0": 40,
+      "1.0": 1
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 78,
+      "1.0": 7
+    }
+  },
+  {
+    "iso3": "PRY",
+    "name": "Paraguay",
+    "districts": 219,
+    "population": 6780744.0,
+    "pop_triple_burden_flood": 167681.35988584807,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "1.0": 116,
+      "2.0": 62,
+      "0.0": 32,
+      "3.0": 9
+    },
+    "burden_distribution_water_stress": {
+      "0.0": 121,
+      "1.0": 76,
+      "2.0": 22
+    }
+  },
+  {
+    "iso3": "PER",
+    "name": "Peru",
+    "districts": 195,
+    "population": 34049588.0,
+    "pop_triple_burden_flood": 3021853.2795212525,
+    "pop_triple_burden_water_stress": 206198.5725995726,
+    "burden_distribution_flood": {
+      "1.0": 64,
+      "2.0": 48,
+      "0.0": 48,
+      "3.0": 35
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 111,
+      "2.0": 71,
+      "0.0": 8,
+      "3.0": 5
+    }
+  },
+  {
+    "iso3": "PHL",
+    "name": "Philippines",
+    "districts": 86,
+    "population": 115559009.0,
+    "pop_triple_burden_flood": 21104032.39821862,
+    "pop_triple_burden_water_stress": 12559965.726417782,
+    "burden_distribution_flood": {
+      "2.0": 70,
+      "3.0": 15
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 38,
+      "1.0": 36,
+      "3.0": 10
+    }
+  },
+  {
+    "iso3": "POL",
+    "name": "Poland",
+    "districts": 377,
+    "population": 36821749.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {
+      "1.0": 243,
+      "0.0": 134
+    }
+  },
+  {
+    "iso3": "PRT",
+    "name": "Portugal",
+    "districts": 308,
+    "population": 10409704.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "0.0": 308
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 275,
+      "0.0": 13
+    }
+  },
+  {
+    "iso3": "PRI",
+    "name": "Puerto Rico (U.S.)",
+    "districts": 78,
+    "population": 3221788.9999999995,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "QAT",
+    "name": "Qatar",
+    "districts": 9,
+    "population": 2695121.9999999995,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "VEN",
+    "name": "R. B. de Venezuela",
+    "districts": 317,
+    "population": 28301696.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "KOR",
+    "name": "Republic of Korea",
+    "districts": 15,
+    "population": 51628116.99999999,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "1.0": 15
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 13,
+      "0.0": 2
+    }
+  },
+  {
+    "iso3": "YEM",
+    "name": "Republic of Yemen",
+    "districts": 333,
+    "population": 33696614.0,
+    "pop_triple_burden_flood": 2462627.921336126,
+    "pop_triple_burden_water_stress": 32515044.84553151,
+    "burden_distribution_flood": {
+      "2.0": 313,
+      "1.0": 11,
+      "3.0": 9
+    },
+    "burden_distribution_water_stress": {
+      "3.0": 322,
+      "2.0": 11
+    }
+  },
+  {
+    "iso3": "ROU",
+    "name": "Romania",
+    "districts": 41,
+    "population": 19047008.999999996,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "1.0": 41
+    },
+    "burden_distribution_water_stress": {
+      "0.0": 22,
+      "1.0": 19
+    }
+  },
+  {
+    "iso3": "RUS",
+    "name": "Russian Federation",
+    "districts": 90,
+    "population": 144236932.99999997,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "RWA",
+    "name": "Rwanda",
+    "districts": 30,
+    "population": 13776697.999999996,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "1.0": 28,
+      "2.0": 2
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 30
+    }
+  },
+  {
+    "iso3": "KNA",
+    "name": "Saint Kitts and Nevis",
+    "districts": 14,
+    "population": 47657.00000000001,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "LCA",
+    "name": "Saint Lucia",
+    "districts": 9,
+    "population": 179857.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "VCT",
+    "name": "Saint Vincent and the Grenadines",
+    "districts": 6,
+    "population": 103948.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "MAF",
+    "name": "Saint-Martin (Fr.)",
+    "districts": 1,
+    "population": 31791.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "WSM",
+    "name": "Samoa",
+    "districts": 1,
+    "population": 222382.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "SMR",
+    "name": "San Marino",
+    "districts": 1,
+    "population": 33660.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "SAU",
+    "name": "Saudi Arabia",
+    "districts": 13,
+    "population": 36408820.00000001,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "SEN",
+    "name": "Senegal",
+    "districts": 45,
+    "population": 17316449.0,
+    "pop_triple_burden_flood": 6998185.094371641,
+    "pop_triple_burden_water_stress": 8863784.49080476,
+    "burden_distribution_flood": {
+      "3.0": 27,
+      "2.0": 13,
+      "1.0": 5
+    },
+    "burden_distribution_water_stress": {
+      "3.0": 26,
+      "2.0": 19
+    }
+  },
+  {
+    "iso3": "SRB",
+    "name": "Serbia",
+    "districts": 25,
+    "population": 6664449.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "SYC",
+    "name": "Seychelles",
+    "districts": 60,
+    "population": 119878.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "SLE",
+    "name": "Sierra Leone",
+    "districts": 16,
+    "population": 9875572.461237865,
+    "pop_triple_burden_flood": 7323391.5521588735,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "3.0": 12,
+      "2.0": 4
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 16
+    }
+  },
+  {
+    "iso3": "SGP",
+    "name": "Singapore",
+    "districts": 9,
+    "population": 5637022.000000001,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "SXM",
+    "name": "Sint Maarten (Neth.)",
+    "districts": 1,
+    "population": 42848.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "SVK",
+    "name": "Slovak Republic",
+    "districts": 79,
+    "population": 5431751.999999999,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "1.0": 79
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 64,
+      "0.0": 15
+    }
+  },
+  {
+    "iso3": "SVN",
+    "name": "Slovenia",
+    "districts": 145,
+    "population": 2111986.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "1.0": 145
+    },
+    "burden_distribution_water_stress": {
+      "0.0": 145
+    }
+  },
+  {
+    "iso3": "SLB",
+    "name": "Solomon Islands",
+    "districts": 1,
+    "population": 724273.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "SOM",
+    "name": "Somalia",
+    "districts": 74,
+    "population": 17597511.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "ZAF",
+    "name": "South Africa",
+    "districts": 52,
+    "population": 59893885.00000001,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 27132213.792155676,
+    "burden_distribution_flood": {
+      "2.0": 34,
+      "1.0": 18
+    },
+    "burden_distribution_water_stress": {
+      "3.0": 29,
+      "2.0": 22
+    }
+  },
+  {
+    "iso3": "SSD",
+    "name": "South Sudan",
+    "districts": 78,
+    "population": 10913164.0,
+    "pop_triple_burden_flood": 6696552.786939477,
+    "pop_triple_burden_water_stress": 1549720.2775727953,
+    "burden_distribution_flood": {
+      "3.0": 41,
+      "2.0": 31,
+      "1.0": 6
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 46,
+      "1.0": 18,
+      "3.0": 14
+    }
+  },
+  {
+    "iso3": "ESP",
+    "name": "Spain",
+    "districts": 55,
+    "population": 47778339.99999999,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "0.0": 32,
+      "1.0": 20
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 49,
+      "0.0": 3
+    }
+  },
+  {
+    "iso3": "LKA",
+    "name": "Sri Lanka",
+    "districts": 25,
+    "population": 22181000.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "2.0": 19,
+      "1.0": 6
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 23,
+      "1.0": 2
+    }
+  },
+  {
+    "iso3": "SDN",
+    "name": "Sudan",
+    "districts": 87,
+    "population": 46874204.00000001,
+    "pop_triple_burden_flood": 34250362.43395782,
+    "pop_triple_burden_water_stress": 23939905.07822988,
+    "burden_distribution_flood": {
+      "3.0": 65,
+      "2.0": 22
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 43,
+      "3.0": 42,
+      "1.0": 2
+    }
+  },
+  {
+    "iso3": "SUR",
+    "name": "Suriname",
+    "districts": 62,
+    "population": 618040.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "SWE",
+    "name": "Sweden",
+    "districts": 289,
+    "population": 10486941.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "0.0": 289
+    },
+    "burden_distribution_water_stress": {
+      "0.0": 213,
+      "1.0": 65
+    }
+  },
+  {
+    "iso3": "CHE",
+    "name": "Switzerland",
+    "districts": 26,
+    "population": 8775760.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "1.0": 26
+    },
+    "burden_distribution_water_stress": {
+      "0.0": 25,
+      "1.0": 1
+    }
+  },
+  {
+    "iso3": "SYR",
+    "name": "Syrian Arab Republic",
+    "districts": 61,
+    "population": 22125249.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "STP",
+    "name": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+    "districts": 2,
+    "population": 227379.99999999997,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "TJK",
+    "name": "Tajikistan",
+    "districts": 65,
+    "population": 9952787.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "2.0": 56,
+      "1.0": 9
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 38,
+      "1.0": 25,
+      "0.0": 1
+    }
+  },
+  {
+    "iso3": "TZA",
+    "name": "Tanzania",
+    "districts": 182,
+    "population": 65497748.0,
+    "pop_triple_burden_flood": 28722921.936038516,
+    "pop_triple_burden_water_stress": 6315945.170846111,
+    "burden_distribution_flood": {
+      "3.0": 85,
+      "2.0": 83,
+      "1.0": 4
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 144,
+      "3.0": 21,
+      "1.0": 7
+    }
+  },
+  {
+    "iso3": "THA",
+    "name": "Thailand",
+    "districts": 813,
+    "population": 71697030.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "1.0": 731,
+      "2.0": 82
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 590,
+      "0.0": 136,
+      "2.0": 82
+    }
+  },
+  {
+    "iso3": "BHS",
+    "name": "The Bahamas",
+    "districts": 1,
+    "population": 409984.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "GMB",
+    "name": "The Gambia",
+    "districts": 37,
+    "population": 2705992.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "TLS",
+    "name": "Timor-Leste",
+    "districts": 65,
+    "population": 1341296.0,
+    "pop_triple_burden_flood": 890110.250858949,
+    "pop_triple_burden_water_stress": 963824.3409738207,
+    "burden_distribution_flood": {
+      "3.0": 56,
+      "2.0": 5
+    },
+    "burden_distribution_water_stress": {
+      "3.0": 60,
+      "2.0": 5
+    }
+  },
+  {
+    "iso3": "TGO",
+    "name": "Togo",
+    "districts": 30,
+    "population": 8848699.0,
+    "pop_triple_burden_flood": 4598510.715640668,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "3.0": 20,
+      "2.0": 10
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 21,
+      "1.0": 9
+    }
+  },
+  {
+    "iso3": "TON",
+    "name": "Tonga",
+    "districts": 1,
+    "population": 106858.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "TTO",
+    "name": "Trinidad and Tobago",
+    "districts": 15,
+    "population": 1531043.9999999998,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "1.0": 15
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 15
+    }
+  },
+  {
+    "iso3": "TUN",
+    "name": "Tunisia",
+    "districts": 261,
+    "population": 12356117.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 1461815.1691427445,
+    "burden_distribution_flood": {
+      "0.0": 170,
+      "1.0": 60,
+      "2.0": 31
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 208,
+      "3.0": 31,
+      "2.0": 21
+    }
+  },
+  {
+    "iso3": "TUR",
+    "name": "Turkey",
+    "districts": 926,
+    "population": 84979913.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "TKM",
+    "name": "Turkmenistan",
+    "districts": 5,
+    "population": 6430769.999999999,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "TCA",
+    "name": "Turks and Caicos Islands (U.K.)",
+    "districts": 6,
+    "population": 45703.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "TUV",
+    "name": "Tuvalu",
+    "districts": 1,
+    "population": 0.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "UGA",
+    "name": "Uganda",
+    "districts": 170,
+    "population": 47249585.0,
+    "pop_triple_burden_flood": 7164710.746256925,
+    "pop_triple_burden_water_stress": 456526.6416549601,
+    "burden_distribution_flood": {
+      "1.0": 78,
+      "2.0": 67,
+      "3.0": 25
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 129,
+      "2.0": 38,
+      "3.0": 2
+    }
+  },
+  {
+    "iso3": "UKR",
+    "name": "Ukraine",
+    "districts": 24,
+    "population": 38000000.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "ARE",
+    "name": "United Arab Emirates",
+    "districts": 7,
+    "population": 9441128.999999998,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "0.0": 7
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 7
+    }
+  },
+  {
+    "iso3": "GBR",
+    "name": "United Kingdom",
+    "districts": 94,
+    "population": 66971394.99999999,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "0.0": 93,
+      "1.0": 1
+    },
+    "burden_distribution_water_stress": {
+      "0.0": 52,
+      "1.0": 41
+    }
+  },
+  {
+    "iso3": "VIR",
+    "name": "United States Virgin Islands (U.S.)",
+    "districts": 3,
+    "population": 105413.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "USA",
+    "name": "United States of America",
+    "districts": 3140,
+    "population": 333287557.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "0.0": 2477,
+      "1.0": 629
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 2079,
+      "0.0": 1012
+    }
+  },
+  {
+    "iso3": "URY",
+    "name": "Uruguay",
+    "districts": 19,
+    "population": 3422794.0000000005,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {
+      "0.0": 13,
+      "1.0": 6
+    }
+  },
+  {
+    "iso3": "UZB",
+    "name": "Uzbekistan",
+    "districts": 199,
+    "population": 35648100.00000001,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {
+      "2.0": 162,
+      "1.0": 37
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 167,
+      "1.0": 23
+    }
+  },
+  {
+    "iso3": "VUT",
+    "name": "Vanuatu",
+    "districts": 6,
+    "population": 326739.9999999999,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "VNM",
+    "name": "Vietnam",
+    "districts": 681,
+    "population": 98186856.0,
+    "pop_triple_burden_flood": 8470636.988476178,
+    "pop_triple_burden_water_stress": 2774821.574127683,
+    "burden_distribution_flood": {
+      "1.0": 346,
+      "2.0": 236,
+      "3.0": 99
+    },
+    "burden_distribution_water_stress": {
+      "1.0": 384,
+      "2.0": 245,
+      "3.0": 35,
+      "0.0": 12
+    }
+  },
+  {
+    "iso3": "PSE",
+    "name": "West Bank and Gaza",
+    "districts": 16,
+    "population": 5043612.0,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 0.0,
+    "burden_distribution_flood": {},
+    "burden_distribution_water_stress": {}
+  },
+  {
+    "iso3": "ZMB",
+    "name": "Zambia",
+    "districts": 105,
+    "population": 20017675.0,
+    "pop_triple_burden_flood": 6012842.853637235,
+    "pop_triple_burden_water_stress": 2386552.896042016,
+    "burden_distribution_flood": {
+      "2.0": 57,
+      "3.0": 35,
+      "1.0": 13
+    },
+    "burden_distribution_water_stress": {
+      "2.0": 67,
+      "1.0": 27,
+      "3.0": 11
+    }
+  },
+  {
+    "iso3": "ZWE",
+    "name": "Zimbabwe",
+    "districts": 62,
+    "population": 16320536.999999998,
+    "pop_triple_burden_flood": 0.0,
+    "pop_triple_burden_water_stress": 6866711.615296701,
+    "burden_distribution_flood": {
+      "2.0": 58,
+      "1.0": 4
+    },
+    "burden_distribution_water_stress": {
+      "3.0": 32,
+      "2.0": 30
+    }
+  }
+]
