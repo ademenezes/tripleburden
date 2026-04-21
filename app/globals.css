@@ -1,26 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Triple Burden Color Palette - Enhanced */
+  --climate-teal: #1a7f8e;
+  --climate-teal-light: #2ca3b5;
+  --climate-teal-dark: #0f5a66;
+
+  --sanitation-blue: #1e3a5f;
+  --sanitation-blue-light: #2d5a8f;
+  --sanitation-blue-dark: #0f1d2f;
+
+  --poverty-earth: #8b7355;
+  --poverty-earth-light: #a89176;
+  --poverty-earth-dark: #5c4a38;
+
+  --background: #fafafa;
+  --foreground: #1a1a1a;
+  --text-secondary: #666666;
+
+  /* Modern UI additions */
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.3);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.12);
+  --shadow-xl: 0 16px 48px rgba(0, 0, 0, 0.16);
 }
 
 @theme inline {
+  --color-climate: var(--climate-teal);
+  --color-climate-light: var(--climate-teal-light);
+  --color-climate-dark: var(--climate-teal-dark);
+
+  --color-sanitation: var(--sanitation-blue);
+  --color-sanitation-light: var(--sanitation-blue-light);
+  --color-sanitation-dark: var(--sanitation-blue-dark);
+
+  --color-poverty: var(--poverty-earth);
+  --color-poverty-light: var(--poverty-earth-light);
+  --color-poverty-dark: var(--poverty-earth-dark);
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-text-secondary: var(--text-secondary);
 }
 
 body {
-  background: var(--background);
+  background: linear-gradient(135deg, #fafafa 0%, #f0f0f0 100%);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+}
+
+/* Modern card styles */
+.modern-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: var(--shadow-md);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modern-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-xl);
+}
+
+/* Smooth transitions */
+a,
+button {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
