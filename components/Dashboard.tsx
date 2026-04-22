@@ -95,6 +95,10 @@ const incomeGroupLabels: Record<string, string> = {
 
 const INCOME_GROUP_ORDER = ['4_LIC', '3_LMIC', '2_UMIC', '1_HIC'];
 
+// Prefix for static assets; set in next.config for GitHub Pages project-site
+// deployments, empty string for local dev and root-hosted deploys.
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
+
 export default function Dashboard() {
     // State
     const [countries, setCountries] = useState<CountryStats[]>([]);
@@ -112,7 +116,7 @@ export default function Dashboard() {
 
     // Load countries on mount
     useEffect(() => {
-        fetch('/data/countries.json')
+        fetch(`${BASE_PATH}/data/countries.json`)
             .then(res => res.json())
             .then((data: CountryStats[]) => {
                 setCountries(data);
@@ -143,7 +147,7 @@ export default function Dashboard() {
         }
 
         setIsLoadingMap(true);
-        fetch(`/data/districts/${selectedCountry.iso3.toLowerCase()}.json`)
+        fetch(`${BASE_PATH}/data/districts/${selectedCountry.iso3.toLowerCase()}.json`)
             .then(res => res.json())
             .then((data: GeoJSONData) => {
                 setGeoData(data);
