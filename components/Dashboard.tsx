@@ -99,6 +99,30 @@ const INCOME_GROUP_ORDER = ['4_LIC', '3_LMIC', '2_UMIC', '1_HIC'];
 // deployments, empty string for local dev and root-hosted deploys.
 const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
 
+// Stable display order for combination sub-rows within each burden level.
+// Only levels 1 and 2 render a breakdown (0 and 3 have a single combo each).
+const COMBO_ORDER_AT_LEVEL: Record<number, string[]> = {
+    0: ['None'],
+    1: ['P', 'C', 'S'],
+    2: ['P+C', 'P+S', 'C+S'],
+    3: ['P+C+S'],
+};
+
+const dimensionShortLabel = (dim: string, riskType: ClimateRiskType): string => {
+    if (dim === 'P') return 'Poverty';
+    if (dim === 'S') return 'Low sanitation';
+    return riskType === 'flood' ? 'Flood risk' : 'Water stress';
+};
+
+const comboLabel = (combo: string, riskType: ClimateRiskType): string => {
+    if (combo === 'None' || combo === '') return 'None';
+    const parts = combo.split('+');
+    if (parts.length === 1) {
+        return `${dimensionShortLabel(parts[0], riskType)} only`;
+    }
+    return parts.map(p => dimensionShortLabel(p, riskType)).join(' + ');
+};
+
 export default function Dashboard() {
     // State
     const [countries, setCountries] = useState<CountryStats[]>([]);
@@ -352,31 +376,60 @@ export default function Dashboard() {
     };
 
     // Calculate summary stats for selected country
-    const summaryStats = useMemo(() => {
+    const summaryStats = useMemo<null | {
+        distribution: Record<number, {
+            count: number;
+            population: number;
+            combos: Record<string, { count: number; population: number }>;
+        }>;
+        totalPop: number;
+        missingData: number;
+    }>(() => {
         if (!geoData) return null;
 
-        const burdenKey = climateRiskType === 'flood' ? 'tb_fld' : 'tb_wtrstr';
-        const distribution: Record<number, { count: number; population: number }> = {
-            0: { count: 0, population: 0 },
-            1: { count: 0, population: 0 },
-            2: { count: 0, population: 0 },
-            3: { count: 0, population: 0 },
+        const distribution: Record<number, {
+            count: number;
+            population: number;
+            combos: Record<string, { count: number; population: number }>;
+        }> = {
+            0: { count: 0, population: 0, combos: {} },
+            1: { count: 0, population: 0, combos: {} },
+            2: { count: 0, population: 0, combos: {} },
+            3: { count: 0, population: 0, combos: {} },
         };
 
         let totalPop = 0;
         let missingData = 0;
 
         geoData.features.forEach(f => {
-            const burden = f.properties[burdenKey as keyof typeof f.properties] as number;
-            const pop = f.properties.popdist || 0;
+            const p = f.properties;
+            const pov = p.d_pov;
+            const climate = climateRiskType === 'flood' ? p.d_fld : p.d_wtrstr;
+            const san = p.d_lowsan;
+            const pop = p.popdist || 0;
             totalPop += pop;
 
-            if (typeof burden === 'number' && burden >= 0 && burden <= 3) {
-                distribution[burden].count++;
-                distribution[burden].population += pop;
-            } else {
+            // All three dimension flags must be 0/1 to assign a level + combo.
+            const dims = [pov, climate, san];
+            if (!dims.every(v => v === 0 || v === 1)) {
                 missingData++;
+                return;
             }
+
+            const level = (pov as number) + (climate as number) + (san as number);
+            const comboParts: string[] = [];
+            if (pov === 1) comboParts.push('P');
+            if (climate === 1) comboParts.push('C');
+            if (san === 1) comboParts.push('S');
+            const combo = comboParts.join('+') || 'None';
+
+            distribution[level].count++;
+            distribution[level].population += pop;
+            if (!distribution[level].combos[combo]) {
+                distribution[level].combos[combo] = { count: 0, population: 0 };
+            }
+            distribution[level].combos[combo].count++;
+            distribution[level].combos[combo].population += pop;
         });
 
         return { distribution, totalPop, missingData };
@@ -813,12 +866,22 @@ export default function Dashboard() {
                             {summaryStats && (
                                 <div className="pt-4 border-t">
                                     <h4 className="text-sm font-medium text-gray-600 mb-3">Distribution</h4>
-                                    <div className="space-y-2">
+                                    <div className="space-y-3">
                                         {[3, 2, 1, 0].map((level) => {
                                             const stats = summaryStats.distribution[level];
                                             const percent = summaryStats.totalPop > 0
                                                 ? (stats.population / summaryStats.totalPop) * 100
                                                 : 0;
+                                            const order = COMBO_ORDER_AT_LEVEL[level] ?? [];
+                                            const comboRows = order
+                                                .filter(c => stats.combos[c] && stats.combos[c].population > 0)
+                                                .map(c => ({
+                                                    combo: c,
+                                                    percent: summaryStats.totalPop > 0
+                                                        ? (stats.combos[c].population / summaryStats.totalPop) * 100
+                                                        : 0,
+                                                }));
+                                            const showBreakdown = (level === 1 || level === 2) && comboRows.length > 0;
                                             return (
                                                 <div key={level}>
                                                     <div className="flex justify-between text-xs text-gray-600 mb-1">
@@ -834,6 +897,16 @@ export default function Dashboard() {
                                                             }}
                                                         />
                                                     </div>
+                                                    {showBreakdown && (
+                                                        <div className="mt-1.5 pl-3 border-l-2 border-gray-100 space-y-0.5">
+                                                            {comboRows.map(({ combo, percent: cpercent }) => (
+                                                                <div key={combo} className="flex justify-between text-[11px] text-gray-500">
+                                                                    <span>{comboLabel(combo, climateRiskType)}</span>
+                                                                    <span className="tabular-nums">{cpercent.toFixed(1)}%</span>
+                                                                </div>
+                                                            ))}
+                                                        </div>
+                                                    )}
                                                 </div>
                                             );
                                         })}
