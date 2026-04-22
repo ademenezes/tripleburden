@@ -16,12 +16,29 @@ from pathlib import Path
 DATA_DIR = Path("/Users/anademenezes/Documents/tripleburden/data")
 OUTPUT_DIR = Path("/Users/anademenezes/Documents/tripleburden/web-app/public/data")
 SHAPEFILE = DATA_DIR / "Shapefiles" / "GAD_ADM2.shp"
+SHAPEFILE_TB = DATA_DIR / "Shapefiles" / "GAD_ADM2_TB.shp"
 EXCEL_FILE = DATA_DIR / "TripleBurden_Pilot_Nov18_DataMetaData.xls"
 
 def main():
     print("Loading shapefile...")
     gdf = gpd.read_file(SHAPEFILE)
     print(f"Loaded {len(gdf)} districts")
+
+    # Merge in reg1 (WB region), incgrp (income group), impwat (improved water %)
+    # from the companion 2_TB attribute table. Geometry is byte-identical, so we
+    # join by index (row order is preserved across both DBFs).
+    print("Loading 2_TB companion shapefile (reg1, incgrp, impwat)...")
+    gdf_tb = gpd.read_file(SHAPEFILE_TB)
+    assert len(gdf) == len(gdf_tb), (
+        f"Row count mismatch: primary={len(gdf)}, 2_TB={len(gdf_tb)}. "
+        "Index-join only valid when both DBFs share the same record order."
+    )
+    # Assign per-column to preserve each source dtype (bulk .values assignment
+    # coerces mixed string + numeric into object dtype).
+    gdf["reg1"] = gdf_tb["reg1"].values
+    gdf["incgrp"] = gdf_tb["incgrp"].values
+    gdf["impwat"] = pd.to_numeric(gdf_tb["impwat"], errors="coerce").values
+    print(f"Merged 3 new columns from 2_TB DBF")
     
     # Simplify geometries for web performance (reduce file size by ~80%)
     print("Simplifying geometries...")
@@ -66,9 +83,16 @@ def main():
         pop_tb_fld = country_gdf[country_gdf['tb_fld'] == 3]['popdist'].sum()
         pop_tb_wtrstr = country_gdf[country_gdf['tb_wtrstr'] == 3]['popdist'].sum()
         
+        # Region and income group are country-level (invariant per iso3) —
+        # pick from the first district row.
+        region = country_gdf['reg1'].iloc[0] if 'reg1' in country_gdf.columns else None
+        income_group = country_gdf['incgrp'].iloc[0] if 'incgrp' in country_gdf.columns else None
+
         stats = {
             "iso3": iso3,
             "name": country_name,
+            "region": region if pd.notna(region) else None,
+            "income_group": income_group if pd.notna(income_group) else None,
             "districts": len(country_gdf),
             "population": float(total_pop) if pd.notna(total_pop) else 0,
             "pop_triple_burden_flood": float(pop_tb_fld) if pd.notna(pop_tb_fld) else 0,
@@ -84,7 +108,8 @@ def main():
             cols_to_keep = ['mundis_id', 'nam1', 'nam2', 'popdist', 'shrurb', 'd_urb',
                            'p215ln', 'p365ln', 'p685ln', 'd_pov',
                            'shpopfld', 'd_fld', 'bws_cat', 'd_wtrstr',
-                           'impsan', 'sewlat', 'd_lowsan',
+                           'impsan', 'sewlat', 'd_lowsan', 'impwat',
+                           'reg1', 'incgrp',
                            'tb_fld', 'tb_wtrstr', 'geometry']
             cols_available = [c for c in cols_to_keep if c in country_gdf.columns]
             country_gdf = country_gdf[cols_available]

@@ -2,6 +2,8 @@
   {
     "iso3": "AFG",
     "name": "Afghanistan",
+    "region": "MENAAP",
+    "income_group": "4_LIC",
     "districts": 398,
     "population": 41128771.0,
     "pop_triple_burden_flood": 0.0,
@@ -12,6 +14,8 @@
   {
     "iso3": "ALB",
     "name": "Albania",
+    "region": "ECA",
+    "income_group": "2_UMIC",
     "districts": 374,
     "population": 2777689.0,
     "pop_triple_burden_flood": 0.0,
@@ -22,6 +26,8 @@
   {
     "iso3": "DZA",
     "name": "Algeria",
+    "region": "MENAAP",
+    "income_group": "2_UMIC",
     "districts": 1541,
     "population": 44903225.0,
     "pop_triple_burden_flood": 0.0,
@@ -37,6 +43,8 @@
   {
     "iso3": "ASM",
     "name": "American Samoa (U.S.)",
+    "region": "EAP",
+    "income_group": "1_HIC",
     "districts": 1,
     "population": 44273.0,
     "pop_triple_burden_flood": 0.0,
@@ -47,6 +55,8 @@
   {
     "iso3": "AND",
     "name": "Andorra",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 7,
     "population": 79824.0,
     "pop_triple_burden_flood": 0.0,
@@ -57,6 +67,8 @@
   {
     "iso3": "AGO",
     "name": "Angola",
+    "region": "SSA",
+    "income_group": "3_LMIC",
     "districts": 164,
     "population": 35588986.99999999,
     "pop_triple_burden_flood": 4361700.684413617,
@@ -75,6 +87,8 @@
   {
     "iso3": "ATG",
     "name": "Antigua and Barbuda",
+    "region": "LAC",
+    "income_group": "1_HIC",
     "districts": 8,
     "population": 93763.0,
     "pop_triple_burden_flood": 0.0,
@@ -85,6 +99,8 @@
   {
     "iso3": "EGY",
     "name": "Arab Republic of Egypt",
+    "region": "MENAAP",
+    "income_group": "3_LMIC",
     "districts": 343,
     "population": 110990103.0,
     "pop_triple_burden_flood": 3455933.544548552,
@@ -103,6 +119,8 @@
   {
     "iso3": "ARG",
     "name": "Argentina",
+    "region": "LAC",
+    "income_group": "2_UMIC",
     "districts": 525,
     "population": 46234830.0,
     "pop_triple_burden_flood": 0.0,
@@ -113,6 +131,8 @@
   {
     "iso3": "ARM",
     "name": "Armenia",
+    "region": "ECA",
+    "income_group": "2_UMIC",
     "districts": 40,
     "population": 2780469.0,
     "pop_triple_burden_flood": 0.0,
@@ -123,6 +143,8 @@
   {
     "iso3": "ABW",
     "name": "Aruba (Neth.)",
+    "region": "LAC",
+    "income_group": "1_HIC",
     "districts": 1,
     "population": 106445.0,
     "pop_triple_burden_flood": 0.0,
@@ -133,6 +155,8 @@
   {
     "iso3": "AUS",
     "name": "Australia",
+    "region": "EAP",
+    "income_group": "1_HIC",
     "districts": 566,
     "population": 26005540.0,
     "pop_triple_burden_flood": 0.0,
@@ -148,6 +172,8 @@
   {
     "iso3": "AUT",
     "name": "Austria",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 100,
     "population": 9041851.0,
     "pop_triple_burden_flood": 0.0,
@@ -164,6 +190,8 @@
   {
     "iso3": "AZE",
     "name": "Azerbaijan",
+    "region": "ECA",
+    "income_group": "2_UMIC",
     "districts": 74,
     "population": 10141756.000000002,
     "pop_triple_burden_flood": 0.0,
@@ -174,6 +202,8 @@
   {
     "iso3": "BHR",
     "name": "Bahrain",
+    "region": "MENAAP",
+    "income_group": "1_HIC",
     "districts": 12,
     "population": 1472233.0000000002,
     "pop_triple_burden_flood": 0.0,
@@ -184,6 +214,8 @@
   {
     "iso3": "BGD",
     "name": "Bangladesh",
+    "region": "SA",
+    "income_group": "3_LMIC",
     "districts": 64,
     "population": 171186372.0,
     "pop_triple_burden_flood": 97160900.89314677,
@@ -201,6 +233,8 @@
   {
     "iso3": "BRB",
     "name": "Barbados",
+    "region": "LAC",
+    "income_group": "1_HIC",
     "districts": 11,
     "population": 281635.0,
     "pop_triple_burden_flood": 0.0,
@@ -211,6 +245,8 @@
   {
     "iso3": "BLR",
     "name": "Belarus",
+    "region": "ECA",
+    "income_group": "2_UMIC",
     "districts": 119,
     "population": 9228071.000000002,
     "pop_triple_burden_flood": 0.0,
@@ -221,6 +257,8 @@
   {
     "iso3": "BEL",
     "name": "Belgium",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 11,
     "population": 11685814.000000002,
     "pop_triple_burden_flood": 0.0,
@@ -236,6 +274,8 @@
   {
     "iso3": "BLZ",
     "name": "Belize",
+    "region": "LAC",
+    "income_group": "2_UMIC",
     "districts": 6,
     "population": 405272.0,
     "pop_triple_burden_flood": 0.0,
@@ -246,6 +286,8 @@
   {
     "iso3": "BEN",
     "name": "Benin",
+    "region": "SSA",
+    "income_group": "3_LMIC",
     "districts": 77,
     "population": 13352863.999999998,
     "pop_triple_burden_flood": 7472895.219184782,
@@ -263,6 +305,8 @@
   {
     "iso3": "BMU",
     "name": "Bermuda (U.K.)",
+    "region": "NA",
+    "income_group": "1_HIC",
     "districts": 1,
     "population": 63532.0,
     "pop_triple_burden_flood": 0.0,
@@ -273,6 +317,8 @@
   {
     "iso3": "BTN",
     "name": "Bhutan",
+    "region": "SA",
+    "income_group": "3_LMIC",
     "districts": 205,
     "population": 782455.0,
     "pop_triple_burden_flood": 0.0,
@@ -291,6 +337,8 @@
   {
     "iso3": "BOL",
     "name": "Bolivia",
+    "region": "LAC",
+    "income_group": "3_LMIC",
     "districts": 113,
     "population": 12224109.999999998,
     "pop_triple_burden_flood": 0.0,
@@ -309,6 +357,8 @@
   {
     "iso3": "BIH",
     "name": "Bosnia and Herzegovina",
+    "region": "ECA",
+    "income_group": "2_UMIC",
     "districts": 81,
     "population": 3233526.0,
     "pop_triple_burden_flood": 0.0,
@@ -319,6 +369,8 @@
   {
     "iso3": "BWA",
     "name": "Botswana",
+    "region": "SSA",
+    "income_group": "2_UMIC",
     "districts": 10,
     "population": 2630296.0,
     "pop_triple_burden_flood": 438469.25998844055,
@@ -335,6 +387,8 @@
   {
     "iso3": "BRA",
     "name": "Brazil",
+    "region": "LAC",
+    "income_group": "2_UMIC",
     "districts": 5510,
     "population": 215313498.0,
     "pop_triple_burden_flood": 8291211.842534615,
@@ -355,6 +409,8 @@
   {
     "iso3": "VGB",
     "name": "British Virgin Islands (U.K.)",
+    "region": "LAC",
+    "income_group": "1_HIC",
     "districts": 5,
     "population": 31305.0,
     "pop_triple_burden_flood": 0.0,
@@ -365,6 +421,8 @@
   {
     "iso3": "BRN",
     "name": "Brunei Darussalam",
+    "region": "EAP",
+    "income_group": "1_HIC",
     "districts": 38,
     "population": 449002.0000000001,
     "pop_triple_burden_flood": 0.0,
@@ -375,6 +433,8 @@
   {
     "iso3": "BGR",
     "name": "Bulgaria",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 262,
     "population": 6465097.0,
     "pop_triple_burden_flood": 0.0,
@@ -385,6 +445,8 @@
   {
     "iso3": "BFA",
     "name": "Burkina Faso",
+    "region": "SSA",
+    "income_group": "4_LIC",
     "districts": 45,
     "population": 22673762.0,
     "pop_triple_burden_flood": 16087727.775555186,
@@ -402,6 +464,8 @@
   {
     "iso3": "BDI",
     "name": "Burundi",
+    "region": "SSA",
+    "income_group": "4_LIC",
     "districts": 134,
     "population": 12889576.0,
     "pop_triple_burden_flood": 2645352.8277232507,
@@ -419,6 +483,8 @@
   {
     "iso3": "CPV",
     "name": "Cabo Verde",
+    "region": "SSA",
+    "income_group": "2_UMIC",
     "districts": 22,
     "population": 593149.0000000001,
     "pop_triple_burden_flood": 0.0,
@@ -429,6 +495,8 @@
   {
     "iso3": "KHM",
     "name": "Cambodia",
+    "region": "EAP",
+    "income_group": "3_LMIC",
     "districts": 187,
     "population": 16767842.0,
     "pop_triple_burden_flood": 0.0,
@@ -439,6 +507,8 @@
   {
     "iso3": "CMR",
     "name": "Cameroon",
+    "region": "SSA",
+    "income_group": "3_LMIC",
     "districts": 58,
     "population": 27914536.0,
     "pop_triple_burden_flood": 15255349.885762062,
@@ -454,6 +524,8 @@
   {
     "iso3": "CAN",
     "name": "Canada",
+    "region": "NA",
+    "income_group": "1_HIC",
     "districts": 293,
     "population": 38929902.0,
     "pop_triple_burden_flood": 0.0,
@@ -470,6 +542,8 @@
   {
     "iso3": "CYM",
     "name": "Cayman Islands (U.K.)",
+    "region": "LAC",
+    "income_group": "1_HIC",
     "districts": 3,
     "population": 68705.99999999999,
     "pop_triple_burden_flood": 0.0,
@@ -480,6 +554,8 @@
   {
     "iso3": "CAF",
     "name": "Central African Republic",
+    "region": "SSA",
+    "income_group": "4_LIC",
     "districts": 71,
     "population": 5579144.000000001,
     "pop_triple_burden_flood": 4057824.9655248797,
@@ -497,6 +573,8 @@
   {
     "iso3": "TCD",
     "name": "Chad",
+    "region": "SSA",
+    "income_group": "4_LIC",
     "districts": 70,
     "population": 17723315.0,
     "pop_triple_burden_flood": 12631569.491165467,
@@ -515,6 +593,8 @@
   {
     "iso3": "CHL",
     "name": "Chile",
+    "region": "LAC",
+    "income_group": "1_HIC",
     "districts": 52,
     "population": 19603732.999999996,
     "pop_triple_burden_flood": 0.0,
@@ -531,6 +611,8 @@
   {
     "iso3": "CHN",
     "name": "China",
+    "region": "EAP",
+    "income_group": "2_UMIC",
     "districts": 345,
     "population": 1388855224.0,
     "pop_triple_burden_flood": 0.0,
@@ -549,6 +631,8 @@
   {
     "iso3": "COL",
     "name": "Colombia",
+    "region": "LAC",
+    "income_group": "2_UMIC",
     "districts": 1122,
     "population": 51874024.0,
     "pop_triple_burden_flood": 15924058.863429284,
@@ -569,6 +653,8 @@
   {
     "iso3": "COM",
     "name": "Comoros",
+    "region": "SSA",
+    "income_group": "3_LMIC",
     "districts": 3,
     "population": 836774.0,
     "pop_triple_burden_flood": 0.0,
@@ -579,6 +665,8 @@
   {
     "iso3": "COG",
     "name": "Congo",
+    "region": "SSA",
+    "income_group": "3_LMIC",
     "districts": 89,
     "population": 5970424.0,
     "pop_triple_burden_flood": 3106093.364324553,
@@ -597,6 +685,8 @@
   {
     "iso3": "CRI",
     "name": "Costa Rica",
+    "region": "LAC",
+    "income_group": "1_HIC",
     "districts": 81,
     "population": 5180829.0,
     "pop_triple_burden_flood": 0.0,
@@ -612,6 +702,8 @@
   {
     "iso3": "HRV",
     "name": "Croatia",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 21,
     "population": 3855599.9999999995,
     "pop_triple_burden_flood": 0.0,
@@ -626,6 +718,8 @@
   {
     "iso3": "CUB",
     "name": "Cuba",
+    "region": "LAC",
+    "income_group": "2_UMIC",
     "districts": 226,
     "population": 11212191.0,
     "pop_triple_burden_flood": 0.0,
@@ -636,6 +730,8 @@
   {
     "iso3": "CUW",
     "name": "Cura\u00e7ao (Neth.)",
+    "region": "LAC",
+    "income_group": "1_HIC",
     "districts": 1,
     "population": 149996.0,
     "pop_triple_burden_flood": 0.0,
@@ -646,6 +742,8 @@
   {
     "iso3": "CYP",
     "name": "Cyprus",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 6,
     "population": 1251488.0,
     "pop_triple_burden_flood": 0.0,
@@ -660,6 +758,8 @@
   {
     "iso3": "CZE",
     "name": "Czech Republic",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 77,
     "population": 10672117.999999998,
     "pop_triple_burden_flood": 0.0,
@@ -676,6 +776,8 @@
   {
     "iso3": "CIV",
     "name": "C\u00f4te d'Ivoire",
+    "region": "SSA",
+    "income_group": "3_LMIC",
     "districts": 33,
     "population": 28160542.0,
     "pop_triple_burden_flood": 10540053.586143702,
@@ -693,6 +795,8 @@
   {
     "iso3": "PRK",
     "name": "D. P. R. of Korea",
+    "region": "EAP",
+    "income_group": "4_LIC",
     "districts": 183,
     "population": 26069416.0,
     "pop_triple_burden_flood": 0.0,
@@ -703,6 +807,8 @@
   {
     "iso3": "COD",
     "name": "Democratic Republic of Congo",
+    "region": "SSA",
+    "income_group": "4_LIC",
     "districts": 30,
     "population": 99010211.99999999,
     "pop_triple_burden_flood": 53709997.07327632,
@@ -719,6 +825,8 @@
   {
     "iso3": "DNK",
     "name": "Denmark",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 99,
     "population": 5903037.0,
     "pop_triple_burden_flood": 0.0,
@@ -732,6 +840,8 @@
   {
     "iso3": "DJI",
     "name": "Djibouti",
+    "region": "MENAAP",
+    "income_group": "3_LMIC",
     "districts": 11,
     "population": 1120849.0,
     "pop_triple_burden_flood": 0.0,
@@ -742,6 +852,8 @@
   {
     "iso3": "DMA",
     "name": "Dominica",
+    "region": "LAC",
+    "income_group": "2_UMIC",
     "districts": 10,
     "population": 72736.99999999999,
     "pop_triple_burden_flood": 0.0,
@@ -752,6 +864,8 @@
   {
     "iso3": "DOM",
     "name": "Dominican Republic",
+    "region": "LAC",
+    "income_group": "2_UMIC",
     "districts": 162,
     "population": 11228821.0,
     "pop_triple_burden_flood": 0.0,
@@ -765,6 +879,8 @@
   {
     "iso3": "ECU",
     "name": "Ecuador",
+    "region": "LAC",
+    "income_group": "2_UMIC",
     "districts": 224,
     "population": 18215419.25952172,
     "pop_triple_burden_flood": 0.0,
@@ -782,6 +898,8 @@
   {
     "iso3": "SLV",
     "name": "El Salvador",
+    "region": "LAC",
+    "income_group": "2_UMIC",
     "districts": 262,
     "population": 6336391.999999999,
     "pop_triple_burden_flood": 1367633.2388293594,
@@ -801,6 +919,8 @@
   {
     "iso3": "GNQ",
     "name": "Equatorial Guinea",
+    "region": "SSA",
+    "income_group": "2_UMIC",
     "districts": 7,
     "population": 1674908.0,
     "pop_triple_burden_flood": 0.0,
@@ -811,6 +931,8 @@
   {
     "iso3": "ERI",
     "name": "Eritrea",
+    "region": "SSA",
+    "income_group": "4_LIC",
     "districts": 58,
     "population": 3684032.0,
     "pop_triple_burden_flood": 0.0,
@@ -821,6 +943,8 @@
   {
     "iso3": "EST",
     "name": "Estonia",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 230,
     "population": 1348840.0,
     "pop_triple_burden_flood": 0.0,
@@ -836,6 +960,8 @@
   {
     "iso3": "SWZ",
     "name": "Eswatini",
+    "region": "SSA",
+    "income_group": "3_LMIC",
     "districts": 53,
     "population": 1201670.0,
     "pop_triple_burden_flood": 0.0,
@@ -853,6 +979,8 @@
   {
     "iso3": "ETH",
     "name": "Ethiopia",
+    "region": "SSA",
+    "income_group": "4_LIC",
     "districts": 74,
     "population": 122145731.01309489,
     "pop_triple_burden_flood": 3462897.8402319406,
@@ -869,6 +997,8 @@
   {
     "iso3": "FRO",
     "name": "Faroe Islands (Den.)",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 1,
     "population": 53090.0,
     "pop_triple_burden_flood": 0.0,
@@ -879,6 +1009,8 @@
   {
     "iso3": "FSM",
     "name": "Federated States of Micronesia",
+    "region": "EAP",
+    "income_group": "3_LMIC",
     "districts": 1,
     "population": 114164.0,
     "pop_triple_burden_flood": 0.0,
@@ -889,6 +1021,8 @@
   {
     "iso3": "FJI",
     "name": "Fiji",
+    "region": "EAP",
+    "income_group": "2_UMIC",
     "districts": 15,
     "population": 929765.9999999999,
     "pop_triple_burden_flood": 0.0,
@@ -899,6 +1033,8 @@
   {
     "iso3": "FIN",
     "name": "Finland",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 20,
     "population": 5556106.0,
     "pop_triple_burden_flood": 0.0,
@@ -914,6 +1050,8 @@
   {
     "iso3": "FRA",
     "name": "France",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 107,
     "population": 67971311.00000001,
     "pop_triple_burden_flood": 0.0,
@@ -930,6 +1068,8 @@
   {
     "iso3": "PYF",
     "name": "French Polynesia (Fr.)",
+    "region": "EAP",
+    "income_group": "1_HIC",
     "districts": 1,
     "population": 306279.0,
     "pop_triple_burden_flood": 0.0,
@@ -940,6 +1080,8 @@
   {
     "iso3": "GAB",
     "name": "Gabon",
+    "region": "SSA",
+    "income_group": "2_UMIC",
     "districts": 48,
     "population": 2388992.0,
     "pop_triple_burden_flood": 0.0,
@@ -957,6 +1099,8 @@
   {
     "iso3": "GEO",
     "name": "Georgia",
+    "region": "ECA",
+    "income_group": "2_UMIC",
     "districts": 79,
     "population": 3712502.0,
     "pop_triple_burden_flood": 0.0,
@@ -967,6 +1111,8 @@
   {
     "iso3": "DEU",
     "name": "Germany",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 33,
     "population": 83797985.0,
     "pop_triple_burden_flood": 0.0,
@@ -983,6 +1129,8 @@
   {
     "iso3": "GHA",
     "name": "Ghana",
+    "region": "SSA",
+    "income_group": "3_LMIC",
     "districts": 217,
     "population": 33475870.0,
     "pop_triple_burden_flood": 11619068.531888073,
@@ -1000,6 +1148,8 @@
   {
     "iso3": "GIB",
     "name": "Gibraltar (U.K.)",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 1,
     "population": 32649.0,
     "pop_triple_burden_flood": 0.0,
@@ -1010,6 +1160,8 @@
   {
     "iso3": "GRC",
     "name": "Greece",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 56,
     "population": 10426919.0,
     "pop_triple_burden_flood": 0.0,
@@ -1025,6 +1177,8 @@
   {
     "iso3": "GRL",
     "name": "Greenland (Den.)",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 3,
     "population": 56661.0,
     "pop_triple_burden_flood": 0.0,
@@ -1035,6 +1189,8 @@
   {
     "iso3": "GRD",
     "name": "Grenada",
+    "region": "LAC",
+    "income_group": "2_UMIC",
     "districts": 7,
     "population": 125437.99999999999,
     "pop_triple_burden_flood": 0.0,
@@ -1045,6 +1201,8 @@
   {
     "iso3": "GUM",
     "name": "Guam (U.S.)",
+    "region": "EAP",
+    "income_group": "1_HIC",
     "districts": 1,
     "population": 171774.0,
     "pop_triple_burden_flood": 0.0,
@@ -1055,6 +1213,8 @@
   {
     "iso3": "GTM",
     "name": "Guatemala",
+    "region": "LAC",
+    "income_group": "2_UMIC",
     "districts": 336,
     "population": 17357886.0,
     "pop_triple_burden_flood": 523749.1148257396,
@@ -1073,6 +1233,8 @@
   {
     "iso3": "CHI",
     "name": "Guernsey (U.K.)",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 29,
     "population": 174078.99999999997,
     "pop_triple_burden_flood": 0.0,
@@ -1083,6 +1245,8 @@
   {
     "iso3": "GIN",
     "name": "Guinea",
+    "region": "SSA",
+    "income_group": "3_LMIC",
     "districts": 38,
     "population": 13859341.0,
     "pop_triple_burden_flood": 9777961.695270723,
@@ -1100,6 +1264,8 @@
   {
     "iso3": "GNB",
     "name": "Guinea-Bissau",
+    "region": "SSA",
+    "income_group": "4_LIC",
     "districts": 39,
     "population": 2105566.0,
     "pop_triple_burden_flood": 2050834.7949721685,
@@ -1117,6 +1283,8 @@
   {
     "iso3": "GUY",
     "name": "Guyana",
+    "region": "LAC",
+    "income_group": "1_HIC",
     "districts": 26,
     "population": 808726.0,
     "pop_triple_burden_flood": 0.0,
@@ -1133,6 +1301,8 @@
   {
     "iso3": "HTI",
     "name": "Haiti",
+    "region": "LAC",
+    "income_group": "3_LMIC",
     "districts": 42,
     "population": 11584996.0,
     "pop_triple_burden_flood": 8491313.808725117,
@@ -1150,6 +1320,8 @@
   {
     "iso3": "HND",
     "name": "Honduras",
+    "region": "LAC",
+    "income_group": "3_LMIC",
     "districts": 291,
     "population": 10432860.0,
     "pop_triple_burden_flood": 1467021.0348618191,
@@ -1168,6 +1340,8 @@
   {
     "iso3": "HKG",
     "name": "Hong Kong, SAR",
+    "region": "EAP",
+    "income_group": "1_HIC",
     "districts": 1,
     "population": 7346100.0,
     "pop_triple_burden_flood": 0.0,
@@ -1178,6 +1352,8 @@
   {
     "iso3": "HUN",
     "name": "Hungary",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 20,
     "population": 9643048.000000002,
     "pop_triple_burden_flood": 0.0,
@@ -1194,6 +1370,8 @@
   {
     "iso3": "ISL",
     "name": "Iceland",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 23,
     "population": 382003.00000000006,
     "pop_triple_burden_flood": 0.0,
@@ -1208,6 +1386,8 @@
   {
     "iso3": "IND",
     "name": "India",
+    "region": "SA",
+    "income_group": "3_LMIC",
     "districts": 705,
     "population": 1417173173.0,
     "pop_triple_burden_flood": 472078623.8456601,
@@ -1226,6 +1406,8 @@
   {
     "iso3": "IDN",
     "name": "Indonesia",
+    "region": "EAP",
+    "income_group": "2_UMIC",
     "districts": 443,
     "population": 275501339.0,
     "pop_triple_burden_flood": 76109537.5062014,
@@ -1244,6 +1426,8 @@
   {
     "iso3": "IRQ",
     "name": "Iraq",
+    "region": "MENAAP",
+    "income_group": "2_UMIC",
     "districts": 109,
     "population": 44496122.0,
     "pop_triple_burden_flood": 0.0,
@@ -1262,6 +1446,8 @@
   {
     "iso3": "IRL",
     "name": "Ireland",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 26,
     "population": 5127170.0,
     "pop_triple_burden_flood": 0.0,
@@ -1277,6 +1463,8 @@
   {
     "iso3": "IRN",
     "name": "Islamic Republic of Iran",
+    "region": "MENAAP",
+    "income_group": "2_UMIC",
     "districts": 280,
     "population": 88550570.0,
     "pop_triple_burden_flood": 0.0,
@@ -1287,6 +1475,8 @@
   {
     "iso3": "IMN",
     "name": "Isle of Man (U.K.)",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 24,
     "population": 84519.0,
     "pop_triple_burden_flood": 0.0,
@@ -1297,6 +1487,8 @@
   {
     "iso3": "ISR",
     "name": "Israel",
+    "region": "MENAAP",
+    "income_group": "1_HIC",
     "districts": 6,
     "population": 9557500.0,
     "pop_triple_burden_flood": 0.0,
@@ -1312,6 +1504,8 @@
   {
     "iso3": "ITA",
     "name": "Italy",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 103,
     "population": 58940425.0,
     "pop_triple_burden_flood": 0.0,
@@ -1328,6 +1522,8 @@
   {
     "iso3": "JAM",
     "name": "Jamaica",
+    "region": "LAC",
+    "income_group": "2_UMIC",
     "districts": 13,
     "population": 2827377.0,
     "pop_triple_burden_flood": 0.0,
@@ -1338,6 +1534,8 @@
   {
     "iso3": "JPN",
     "name": "Japan",
+    "region": "EAP",
+    "income_group": "1_HIC",
     "districts": 3347,
     "population": 125124989.0,
     "pop_triple_burden_flood": 0.0,
@@ -1353,6 +1551,8 @@
   {
     "iso3": "JOR",
     "name": "Jordan",
+    "region": "MENAAP",
+    "income_group": "3_LMIC",
     "districts": 58,
     "population": 11285869.0,
     "pop_triple_burden_flood": 0.0,
@@ -1366,6 +1566,8 @@
   {
     "iso3": "KAZ",
     "name": "Kazakhstan",
+    "region": "ECA",
+    "income_group": "2_UMIC",
     "districts": 173,
     "population": 19621972.0,
     "pop_triple_burden_flood": 0.0,
@@ -1376,6 +1578,8 @@
   {
     "iso3": "KEN",
     "name": "Kenya",
+    "region": "SSA",
+    "income_group": "3_LMIC",
     "districts": 47,
     "population": 54027487.0,
     "pop_triple_burden_flood": 11613928.780183535,
@@ -1392,6 +1596,8 @@
   {
     "iso3": "KIR",
     "name": "Kiribati",
+    "region": "EAP",
+    "income_group": "3_LMIC",
     "districts": 1,
     "population": 131232.0,
     "pop_triple_burden_flood": 0.0,
@@ -1402,6 +1608,8 @@
   {
     "iso3": "XKX",
     "name": "Kosovo",
+    "region": "ECA",
+    "income_group": "2_UMIC",
     "districts": 38,
     "population": 1761984.9999999998,
     "pop_triple_burden_flood": 0.0,
@@ -1412,6 +1620,8 @@
   {
     "iso3": "KWT",
     "name": "Kuwait",
+    "region": "MENAAP",
+    "income_group": "1_HIC",
     "districts": 5,
     "population": 4268872.999999999,
     "pop_triple_burden_flood": 0.0,
@@ -1422,6 +1632,8 @@
   {
     "iso3": "KGZ",
     "name": "Kyrgyz Republic",
+    "region": "ECA",
+    "income_group": "3_LMIC",
     "districts": 40,
     "population": 6974900.0,
     "pop_triple_burden_flood": 0.0,
@@ -1438,6 +1650,8 @@
   {
     "iso3": "LAO",
     "name": "Lao People's Democratic Republic",
+    "region": "EAP",
+    "income_group": "3_LMIC",
     "districts": 148,
     "population": 7529475.0,
     "pop_triple_burden_flood": 5607649.5609209705,
@@ -1455,6 +1669,8 @@
   {
     "iso3": "LVA",
     "name": "Latvia",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 587,
     "population": 1879383.0,
     "pop_triple_burden_flood": 0.0,
@@ -1470,6 +1686,8 @@
   {
     "iso3": "LBN",
     "name": "Lebanon",
+    "region": "MENAAP",
+    "income_group": "3_LMIC",
     "districts": 26,
     "population": 5489739.0,
     "pop_triple_burden_flood": 0.0,
@@ -1480,6 +1698,8 @@
   {
     "iso3": "LSO",
     "name": "Lesotho",
+    "region": "SSA",
+    "income_group": "3_LMIC",
     "districts": 247,
     "population": 2305825.0,
     "pop_triple_burden_flood": 0.0,
@@ -1490,6 +1710,8 @@
   {
     "iso3": "LBR",
     "name": "Liberia",
+    "region": "SSA",
+    "income_group": "4_LIC",
     "districts": 136,
     "population": 5302681.0,
     "pop_triple_burden_flood": 4020461.8001594613,
@@ -1506,6 +1728,8 @@
   {
     "iso3": "LBY",
     "name": "Libya",
+    "region": "MENAAP",
+    "income_group": "2_UMIC",
     "districts": 25,
     "population": 6812341.0,
     "pop_triple_burden_flood": 0.0,
@@ -1516,6 +1740,8 @@
   {
     "iso3": "LIE",
     "name": "Liechtenstein",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 11,
     "population": 39327.0,
     "pop_triple_burden_flood": 0.0,
@@ -1526,6 +1752,8 @@
   {
     "iso3": "LTU",
     "name": "Lithuania",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 55,
     "population": 2831639.0,
     "pop_triple_burden_flood": 0.0,
@@ -1541,6 +1769,8 @@
   {
     "iso3": "LUX",
     "name": "Luxembourg",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 12,
     "population": 653103.0,
     "pop_triple_burden_flood": 0.0,
@@ -1555,6 +1785,8 @@
   {
     "iso3": "MAC",
     "name": "Macau, SAR",
+    "region": "EAP",
+    "income_group": "1_HIC",
     "districts": 1,
     "population": 695168.0,
     "pop_triple_burden_flood": 0.0,
@@ -1565,6 +1797,8 @@
   {
     "iso3": "MDG",
     "name": "Madagascar",
+    "region": "SSA",
+    "income_group": "4_LIC",
     "districts": 119,
     "population": 29611714.0,
     "pop_triple_burden_flood": 4158721.983828825,
@@ -1583,6 +1817,8 @@
   {
     "iso3": "MWI",
     "name": "Malawi",
+    "region": "SSA",
+    "income_group": "4_LIC",
     "districts": 29,
     "population": 20405317.000000004,
     "pop_triple_burden_flood": 0.0,
@@ -1593,6 +1829,8 @@
   {
     "iso3": "MYS",
     "name": "Malaysia",
+    "region": "EAP",
+    "income_group": "2_UMIC",
     "districts": 133,
     "population": 33938221.0,
     "pop_triple_burden_flood": 0.0,
@@ -1603,6 +1841,8 @@
   {
     "iso3": "MDV",
     "name": "Maldives",
+    "region": "SA",
+    "income_group": "2_UMIC",
     "districts": 20,
     "population": 523787.00000000006,
     "pop_triple_burden_flood": 0.0,
@@ -1613,6 +1853,8 @@
   {
     "iso3": "MLI",
     "name": "Mali",
+    "region": "SSA",
+    "income_group": "4_LIC",
     "districts": 53,
     "population": 22854839.38762688,
     "pop_triple_burden_flood": 19589581.816114422,
@@ -1631,6 +1873,8 @@
   {
     "iso3": "MLT",
     "name": "Malta",
+    "region": "MENAAP",
+    "income_group": "1_HIC",
     "districts": 67,
     "population": 531113.0,
     "pop_triple_burden_flood": 0.0,
@@ -1645,6 +1889,8 @@
   {
     "iso3": "MHL",
     "name": "Marshall Islands",
+    "region": "EAP",
+    "income_group": "2_UMIC",
     "districts": 1,
     "population": 41569.0,
     "pop_triple_burden_flood": 0.0,
@@ -1655,6 +1901,8 @@
   {
     "iso3": "MRT",
     "name": "Mauritania",
+    "region": "SSA",
+    "income_group": "3_LMIC",
     "districts": 44,
     "population": 4736139.000000001,
     "pop_triple_burden_flood": 2202445.1110755345,
@@ -1672,6 +1920,8 @@
   {
     "iso3": "MUS",
     "name": "Mauritius",
+    "region": "SSA",
+    "income_group": "2_UMIC",
     "districts": 10,
     "population": 1262523.0,
     "pop_triple_burden_flood": 0.0,
@@ -1682,6 +1932,8 @@
   {
     "iso3": "MEX",
     "name": "Mexico",
+    "region": "LAC",
+    "income_group": "2_UMIC",
     "districts": 1891,
     "population": 127504125.0,
     "pop_triple_burden_flood": 7985246.342172172,
@@ -1702,6 +1954,8 @@
   {
     "iso3": "MDA",
     "name": "Moldova",
+    "region": "ECA",
+    "income_group": "2_UMIC",
     "districts": 37,
     "population": 2538894.0,
     "pop_triple_burden_flood": 0.0,
@@ -1712,6 +1966,8 @@
   {
     "iso3": "MCO",
     "name": "Monaco",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 1,
     "population": 36469.0,
     "pop_triple_burden_flood": 0.0,
@@ -1722,6 +1978,8 @@
   {
     "iso3": "MNG",
     "name": "Mongolia",
+    "region": "EAP",
+    "income_group": "2_UMIC",
     "districts": 336,
     "population": 3398366.0,
     "pop_triple_burden_flood": 194081.43699095276,
@@ -1742,6 +2000,8 @@
   {
     "iso3": "MNE",
     "name": "Montenegro",
+    "region": "ECA",
+    "income_group": "2_UMIC",
     "districts": 21,
     "population": 617212.9999999998,
     "pop_triple_burden_flood": 0.0,
@@ -1752,6 +2012,8 @@
   {
     "iso3": "MAR",
     "name": "Morocco",
+    "region": "MENAAP",
+    "income_group": "3_LMIC",
     "districts": 71,
     "population": 37457971.00000001,
     "pop_triple_burden_flood": 2026437.5873065307,
@@ -1771,6 +2033,8 @@
   {
     "iso3": "MOZ",
     "name": "Mozambique",
+    "region": "SSA",
+    "income_group": "4_LIC",
     "districts": 154,
     "population": 32969518.0,
     "pop_triple_burden_flood": 12034881.828686308,
@@ -1789,6 +2053,8 @@
   {
     "iso3": "MMR",
     "name": "Myanmar",
+    "region": "EAP",
+    "income_group": "3_LMIC",
     "districts": 70,
     "population": 54179306.00000001,
     "pop_triple_burden_flood": 48701736.696651846,
@@ -1806,6 +2072,8 @@
   {
     "iso3": "NAM",
     "name": "Namibia",
+    "region": "SSA",
+    "income_group": "3_LMIC",
     "districts": 107,
     "population": 2567012.0,
     "pop_triple_burden_flood": 1143499.2223742392,
@@ -1825,6 +2093,8 @@
   {
     "iso3": "NRU",
     "name": "Nauru",
+    "region": "EAP",
+    "income_group": "1_HIC",
     "districts": 1,
     "population": 12668.0,
     "pop_triple_burden_flood": 0.0,
@@ -1837,6 +2107,8 @@
   {
     "iso3": "NPL",
     "name": "Nepal",
+    "region": "SA",
+    "income_group": "3_LMIC",
     "districts": 77,
     "population": 30547580.0,
     "pop_triple_burden_flood": 539099.3326456,
@@ -1854,6 +2126,8 @@
   {
     "iso3": "NLD",
     "name": "Netherlands",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 12,
     "population": 17700981.999999996,
     "pop_triple_burden_flood": 0.0,
@@ -1869,6 +2143,8 @@
   {
     "iso3": "NCL",
     "name": "New Caledonia (Fr.)",
+    "region": "EAP",
+    "income_group": "1_HIC",
     "districts": 1,
     "population": 269220.0,
     "pop_triple_burden_flood": 0.0,
@@ -1879,6 +2155,8 @@
   {
     "iso3": "NZL",
     "name": "New Zealand",
+    "region": "EAP",
+    "income_group": "1_HIC",
     "districts": 14,
     "population": 5124100.000000002,
     "pop_triple_burden_flood": 0.0,
@@ -1889,6 +2167,8 @@
   {
     "iso3": "NIC",
     "name": "Nicaragua",
+    "region": "LAC",
+    "income_group": "3_LMIC",
     "districts": 153,
     "population": 6948391.999999998,
     "pop_triple_burden_flood": 1665441.5402121954,
@@ -1906,6 +2186,8 @@
   {
     "iso3": "NER",
     "name": "Niger",
+    "region": "SSA",
+    "income_group": "4_LIC",
     "districts": 38,
     "population": 26207977.0,
     "pop_triple_burden_flood": 8607883.839797156,
@@ -1924,6 +2206,8 @@
   {
     "iso3": "NGA",
     "name": "Nigeria",
+    "region": "SSA",
+    "income_group": "3_LMIC",
     "districts": 775,
     "population": 220527045.06330013,
     "pop_triple_burden_flood": 111286973.12433141,
@@ -1942,6 +2226,8 @@
   {
     "iso3": "MKD",
     "name": "North Macedonia",
+    "region": "ECA",
+    "income_group": "2_UMIC",
     "districts": 84,
     "population": 2057679.0,
     "pop_triple_burden_flood": 0.0,
@@ -1952,6 +2238,8 @@
   {
     "iso3": "MNP",
     "name": "Northern Mariana Islands (U.S.)",
+    "region": "EAP",
+    "income_group": "1_HIC",
     "districts": 1,
     "population": 49551.0,
     "pop_triple_burden_flood": 0.0,
@@ -1962,6 +2250,8 @@
   {
     "iso3": "NOR",
     "name": "Norway",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 435,
     "population": 5457127.0,
     "pop_triple_burden_flood": 0.0,
@@ -1977,6 +2267,8 @@
   {
     "iso3": "OMN",
     "name": "Oman",
+    "region": "MENAAP",
+    "income_group": "1_HIC",
     "districts": 50,
     "population": 4576297.999999999,
     "pop_triple_burden_flood": 0.0,
@@ -1987,6 +2279,8 @@
   {
     "iso3": "PAK",
     "name": "Pakistan",
+    "region": "MENAAP",
+    "income_group": "3_LMIC",
     "districts": 158,
     "population": 241459145.77735907,
     "pop_triple_burden_flood": 28191522.740238186,
@@ -2004,6 +2298,8 @@
   {
     "iso3": "PLW",
     "name": "Palau",
+    "region": "EAP",
+    "income_group": "1_HIC",
     "districts": 1,
     "population": 18055.0,
     "pop_triple_burden_flood": 0.0,
@@ -2014,6 +2310,8 @@
   {
     "iso3": "PAN",
     "name": "Panama",
+    "region": "LAC",
+    "income_group": "1_HIC",
     "districts": 76,
     "population": 4408580.999999999,
     "pop_triple_burden_flood": 14189.935945197054,
@@ -2033,6 +2331,8 @@
   {
     "iso3": "PNG",
     "name": "Papua New Guinea",
+    "region": "EAP",
+    "income_group": "3_LMIC",
     "districts": 87,
     "population": 10142619.000000004,
     "pop_triple_burden_flood": 4484710.013115661,
@@ -2050,6 +2350,8 @@
   {
     "iso3": "PRY",
     "name": "Paraguay",
+    "region": "LAC",
+    "income_group": "2_UMIC",
     "districts": 219,
     "population": 6780744.0,
     "pop_triple_burden_flood": 167681.35988584807,
@@ -2069,6 +2371,8 @@
   {
     "iso3": "PER",
     "name": "Peru",
+    "region": "LAC",
+    "income_group": "2_UMIC",
     "districts": 195,
     "population": 34049588.0,
     "pop_triple_burden_flood": 3021853.2795212525,
@@ -2089,6 +2393,8 @@
   {
     "iso3": "PHL",
     "name": "Philippines",
+    "region": "EAP",
+    "income_group": "3_LMIC",
     "districts": 86,
     "population": 115559009.0,
     "pop_triple_burden_flood": 21104032.39821862,
@@ -2106,6 +2412,8 @@
   {
     "iso3": "POL",
     "name": "Poland",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 377,
     "population": 36821749.0,
     "pop_triple_burden_flood": 0.0,
@@ -2119,6 +2427,8 @@
   {
     "iso3": "PRT",
     "name": "Portugal",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 308,
     "population": 10409704.0,
     "pop_triple_burden_flood": 0.0,
@@ -2134,6 +2444,8 @@
   {
     "iso3": "PRI",
     "name": "Puerto Rico (U.S.)",
+    "region": "LAC",
+    "income_group": "1_HIC",
     "districts": 78,
     "population": 3221788.9999999995,
     "pop_triple_burden_flood": 0.0,
@@ -2144,6 +2456,8 @@
   {
     "iso3": "QAT",
     "name": "Qatar",
+    "region": "MENAAP",
+    "income_group": "1_HIC",
     "districts": 9,
     "population": 2695121.9999999995,
     "pop_triple_burden_flood": 0.0,
@@ -2154,6 +2468,8 @@
   {
     "iso3": "VEN",
     "name": "R. B. de Venezuela",
+    "region": "LAC",
+    "income_group": "3_LMIC",
     "districts": 317,
     "population": 28301696.0,
     "pop_triple_burden_flood": 0.0,
@@ -2164,6 +2480,8 @@
   {
     "iso3": "KOR",
     "name": "Republic of Korea",
+    "region": "EAP",
+    "income_group": "1_HIC",
     "districts": 15,
     "population": 51628116.99999999,
     "pop_triple_burden_flood": 0.0,
@@ -2179,6 +2497,8 @@
   {
     "iso3": "YEM",
     "name": "Republic of Yemen",
+    "region": "MENAAP",
+    "income_group": "4_LIC",
     "districts": 333,
     "population": 33696614.0,
     "pop_triple_burden_flood": 2462627.921336126,
@@ -2196,6 +2516,8 @@
   {
     "iso3": "ROU",
     "name": "Romania",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 41,
     "population": 19047008.999999996,
     "pop_triple_burden_flood": 0.0,
@@ -2211,6 +2533,8 @@
   {
     "iso3": "RUS",
     "name": "Russian Federation",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 90,
     "population": 144236932.99999997,
     "pop_triple_burden_flood": 0.0,
@@ -2221,6 +2545,8 @@
   {
     "iso3": "RWA",
     "name": "Rwanda",
+    "region": "SSA",
+    "income_group": "4_LIC",
     "districts": 30,
     "population": 13776697.999999996,
     "pop_triple_burden_flood": 0.0,
@@ -2236,6 +2562,8 @@
   {
     "iso3": "KNA",
     "name": "Saint Kitts and Nevis",
+    "region": "LAC",
+    "income_group": "1_HIC",
     "districts": 14,
     "population": 47657.00000000001,
     "pop_triple_burden_flood": 0.0,
@@ -2246,6 +2574,8 @@
   {
     "iso3": "LCA",
     "name": "Saint Lucia",
+    "region": "LAC",
+    "income_group": "2_UMIC",
     "districts": 9,
     "population": 179857.0,
     "pop_triple_burden_flood": 0.0,
@@ -2256,6 +2586,8 @@
   {
     "iso3": "VCT",
     "name": "Saint Vincent and the Grenadines",
+    "region": "LAC",
+    "income_group": "2_UMIC",
     "districts": 6,
     "population": 103948.0,
     "pop_triple_burden_flood": 0.0,
@@ -2266,6 +2598,8 @@
   {
     "iso3": "MAF",
     "name": "Saint-Martin (Fr.)",
+    "region": "LAC",
+    "income_group": "1_HIC",
     "districts": 1,
     "population": 31791.0,
     "pop_triple_burden_flood": 0.0,
@@ -2276,6 +2610,8 @@
   {
     "iso3": "WSM",
     "name": "Samoa",
+    "region": "EAP",
+    "income_group": "2_UMIC",
     "districts": 1,
     "population": 222382.0,
     "pop_triple_burden_flood": 0.0,
@@ -2286,6 +2622,8 @@
   {
     "iso3": "SMR",
     "name": "San Marino",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 1,
     "population": 33660.0,
     "pop_triple_burden_flood": 0.0,
@@ -2296,6 +2634,8 @@
   {
     "iso3": "SAU",
     "name": "Saudi Arabia",
+    "region": "MENAAP",
+    "income_group": "1_HIC",
     "districts": 13,
     "population": 36408820.00000001,
     "pop_triple_burden_flood": 0.0,
@@ -2306,6 +2646,8 @@
   {
     "iso3": "SEN",
     "name": "Senegal",
+    "region": "SSA",
+    "income_group": "3_LMIC",
     "districts": 45,
     "population": 17316449.0,
     "pop_triple_burden_flood": 6998185.094371641,
@@ -2323,6 +2665,8 @@
   {
     "iso3": "SRB",
     "name": "Serbia",
+    "region": "ECA",
+    "income_group": "2_UMIC",
     "districts": 25,
     "population": 6664449.0,
     "pop_triple_burden_flood": 0.0,
@@ -2333,6 +2677,8 @@
   {
     "iso3": "SYC",
     "name": "Seychelles",
+    "region": "SSA",
+    "income_group": "1_HIC",
     "districts": 60,
     "population": 119878.0,
     "pop_triple_burden_flood": 0.0,
@@ -2343,6 +2689,8 @@
   {
     "iso3": "SLE",
     "name": "Sierra Leone",
+    "region": "SSA",
+    "income_group": "4_LIC",
     "districts": 16,
     "population": 9875572.461237865,
     "pop_triple_burden_flood": 7323391.5521588735,
@@ -2358,6 +2706,8 @@
   {
     "iso3": "SGP",
     "name": "Singapore",
+    "region": "EAP",
+    "income_group": "1_HIC",
     "districts": 9,
     "population": 5637022.000000001,
     "pop_triple_burden_flood": 0.0,
@@ -2368,6 +2718,8 @@
   {
     "iso3": "SXM",
     "name": "Sint Maarten (Neth.)",
+    "region": "LAC",
+    "income_group": "1_HIC",
     "districts": 1,
     "population": 42848.0,
     "pop_triple_burden_flood": 0.0,
@@ -2378,6 +2730,8 @@
   {
     "iso3": "SVK",
     "name": "Slovak Republic",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 79,
     "population": 5431751.999999999,
     "pop_triple_burden_flood": 0.0,
@@ -2393,6 +2747,8 @@
   {
     "iso3": "SVN",
     "name": "Slovenia",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 145,
     "population": 2111986.0,
     "pop_triple_burden_flood": 0.0,
@@ -2407,6 +2763,8 @@
   {
     "iso3": "SLB",
     "name": "Solomon Islands",
+    "region": "EAP",
+    "income_group": "3_LMIC",
     "districts": 1,
     "population": 724273.0,
     "pop_triple_burden_flood": 0.0,
@@ -2417,6 +2775,8 @@
   {
     "iso3": "SOM",
     "name": "Somalia",
+    "region": "SSA",
+    "income_group": "4_LIC",
     "districts": 74,
     "population": 17597511.0,
     "pop_triple_burden_flood": 0.0,
@@ -2427,6 +2787,8 @@
   {
     "iso3": "ZAF",
     "name": "South Africa",
+    "region": "SSA",
+    "income_group": "2_UMIC",
     "districts": 52,
     "population": 59893885.00000001,
     "pop_triple_burden_flood": 0.0,
@@ -2443,6 +2805,8 @@
   {
     "iso3": "SSD",
     "name": "South Sudan",
+    "region": "SSA",
+    "income_group": "4_LIC",
     "districts": 78,
     "population": 10913164.0,
     "pop_triple_burden_flood": 6696552.786939477,
@@ -2461,6 +2825,8 @@
   {
     "iso3": "ESP",
     "name": "Spain",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 55,
     "population": 47778339.99999999,
     "pop_triple_burden_flood": 0.0,
@@ -2477,6 +2843,8 @@
   {
     "iso3": "LKA",
     "name": "Sri Lanka",
+    "region": "SA",
+    "income_group": "3_LMIC",
     "districts": 25,
     "population": 22181000.0,
     "pop_triple_burden_flood": 0.0,
@@ -2493,6 +2861,8 @@
   {
     "iso3": "SDN",
     "name": "Sudan",
+    "region": "SSA",
+    "income_group": "4_LIC",
     "districts": 87,
     "population": 46874204.00000001,
     "pop_triple_burden_flood": 34250362.43395782,
@@ -2510,6 +2880,8 @@
   {
     "iso3": "SUR",
     "name": "Suriname",
+    "region": "LAC",
+    "income_group": "2_UMIC",
     "districts": 62,
     "population": 618040.0,
     "pop_triple_burden_flood": 0.0,
@@ -2520,6 +2892,8 @@
   {
     "iso3": "SWE",
     "name": "Sweden",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 289,
     "population": 10486941.0,
     "pop_triple_burden_flood": 0.0,
@@ -2535,6 +2909,8 @@
   {
     "iso3": "CHE",
     "name": "Switzerland",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 26,
     "population": 8775760.0,
     "pop_triple_burden_flood": 0.0,
@@ -2550,6 +2926,8 @@
   {
     "iso3": "SYR",
     "name": "Syrian Arab Republic",
+    "region": "MENAAP",
+    "income_group": "4_LIC",
     "districts": 61,
     "population": 22125249.0,
     "pop_triple_burden_flood": 0.0,
@@ -2560,6 +2938,8 @@
   {
     "iso3": "STP",
     "name": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+    "region": "SSA",
+    "income_group": "3_LMIC",
     "districts": 2,
     "population": 227379.99999999997,
     "pop_triple_burden_flood": 0.0,
@@ -2570,6 +2950,8 @@
   {
     "iso3": "TJK",
     "name": "Tajikistan",
+    "region": "ECA",
+    "income_group": "3_LMIC",
     "districts": 65,
     "population": 9952787.0,
     "pop_triple_burden_flood": 0.0,
@@ -2587,6 +2969,8 @@
   {
     "iso3": "TZA",
     "name": "Tanzania",
+    "region": "SSA",
+    "income_group": "3_LMIC",
     "districts": 182,
     "population": 65497748.0,
     "pop_triple_burden_flood": 28722921.936038516,
@@ -2605,6 +2989,8 @@
   {
     "iso3": "THA",
     "name": "Thailand",
+    "region": "EAP",
+    "income_group": "2_UMIC",
     "districts": 813,
     "population": 71697030.0,
     "pop_triple_burden_flood": 0.0,
@@ -2622,6 +3008,8 @@
   {
     "iso3": "BHS",
     "name": "The Bahamas",
+    "region": "LAC",
+    "income_group": "1_HIC",
     "districts": 1,
     "population": 409984.0,
     "pop_triple_burden_flood": 0.0,
@@ -2632,6 +3020,8 @@
   {
     "iso3": "GMB",
     "name": "The Gambia",
+    "region": "SSA",
+    "income_group": "4_LIC",
     "districts": 37,
     "population": 2705992.0,
     "pop_triple_burden_flood": 0.0,
@@ -2642,6 +3032,8 @@
   {
     "iso3": "TLS",
     "name": "Timor-Leste",
+    "region": "EAP",
+    "income_group": "3_LMIC",
     "districts": 65,
     "population": 1341296.0,
     "pop_triple_burden_flood": 890110.250858949,
@@ -2658,6 +3050,8 @@
   {
     "iso3": "TGO",
     "name": "Togo",
+    "region": "SSA",
+    "income_group": "4_LIC",
     "districts": 30,
     "population": 8848699.0,
     "pop_triple_burden_flood": 4598510.715640668,
@@ -2674,6 +3068,8 @@
   {
     "iso3": "TON",
     "name": "Tonga",
+    "region": "EAP",
+    "income_group": "2_UMIC",
     "districts": 1,
     "population": 106858.0,
     "pop_triple_burden_flood": 0.0,
@@ -2684,6 +3080,8 @@
   {
     "iso3": "TTO",
     "name": "Trinidad and Tobago",
+    "region": "LAC",
+    "income_group": "1_HIC",
     "districts": 15,
     "population": 1531043.9999999998,
     "pop_triple_burden_flood": 0.0,
@@ -2698,6 +3096,8 @@
   {
     "iso3": "TUN",
     "name": "Tunisia",
+    "region": "MENAAP",
+    "income_group": "3_LMIC",
     "districts": 261,
     "population": 12356117.0,
     "pop_triple_burden_flood": 0.0,
@@ -2716,6 +3116,8 @@
   {
     "iso3": "TUR",
     "name": "Turkey",
+    "region": "ECA",
+    "income_group": "2_UMIC",
     "districts": 926,
     "population": 84979913.0,
     "pop_triple_burden_flood": 0.0,
@@ -2726,6 +3128,8 @@
   {
     "iso3": "TKM",
     "name": "Turkmenistan",
+    "region": "ECA",
+    "income_group": "2_UMIC",
     "districts": 5,
     "population": 6430769.999999999,
     "pop_triple_burden_flood": 0.0,
@@ -2736,6 +3140,8 @@
   {
     "iso3": "TCA",
     "name": "Turks and Caicos Islands (U.K.)",
+    "region": "LAC",
+    "income_group": "1_HIC",
     "districts": 6,
     "population": 45703.0,
     "pop_triple_burden_flood": 0.0,
@@ -2746,6 +3152,8 @@
   {
     "iso3": "TUV",
     "name": "Tuvalu",
+    "region": "EAP",
+    "income_group": "2_UMIC",
     "districts": 1,
     "population": 0.0,
     "pop_triple_burden_flood": 0.0,
@@ -2756,6 +3164,8 @@
   {
     "iso3": "UGA",
     "name": "Uganda",
+    "region": "SSA",
+    "income_group": "4_LIC",
     "districts": 170,
     "population": 47249585.0,
     "pop_triple_burden_flood": 7164710.746256925,
@@ -2774,6 +3184,8 @@
   {
     "iso3": "UKR",
     "name": "Ukraine",
+    "region": "ECA",
+    "income_group": "2_UMIC",
     "districts": 24,
     "population": 38000000.0,
     "pop_triple_burden_flood": 0.0,
@@ -2784,6 +3196,8 @@
   {
     "iso3": "ARE",
     "name": "United Arab Emirates",
+    "region": "MENAAP",
+    "income_group": "1_HIC",
     "districts": 7,
     "population": 9441128.999999998,
     "pop_triple_burden_flood": 0.0,
@@ -2798,6 +3212,8 @@
   {
     "iso3": "GBR",
     "name": "United Kingdom",
+    "region": "ECA",
+    "income_group": "1_HIC",
     "districts": 94,
     "population": 66971394.99999999,
     "pop_triple_burden_flood": 0.0,
@@ -2814,6 +3230,8 @@
   {
     "iso3": "VIR",
     "name": "United States Virgin Islands (U.S.)",
+    "region": "LAC",
+    "income_group": "1_HIC",
     "districts": 3,
     "population": 105413.0,
     "pop_triple_burden_flood": 0.0,
@@ -2824,6 +3242,8 @@
   {
     "iso3": "USA",
     "name": "United States of America",
+    "region": "NA",
+    "income_group": "1_HIC",
     "districts": 3140,
     "population": 333287557.0,
     "pop_triple_burden_flood": 0.0,
@@ -2840,6 +3260,8 @@
   {
     "iso3": "URY",
     "name": "Uruguay",
+    "region": "LAC",
+    "income_group": "1_HIC",
     "districts": 19,
     "population": 3422794.0000000005,
     "pop_triple_burden_flood": 0.0,
@@ -2853,6 +3275,8 @@
   {
     "iso3": "UZB",
     "name": "Uzbekistan",
+    "region": "ECA",
+    "income_group": "3_LMIC",
     "districts": 199,
     "population": 35648100.00000001,
     "pop_triple_burden_flood": 0.0,
@@ -2869,6 +3293,8 @@
   {
     "iso3": "VUT",
     "name": "Vanuatu",
+    "region": "EAP",
+    "income_group": "3_LMIC",
     "districts": 6,
     "population": 326739.9999999999,
     "pop_triple_burden_flood": 0.0,
@@ -2879,6 +3305,8 @@
   {
     "iso3": "VNM",
     "name": "Vietnam",
+    "region": "EAP",
+    "income_group": "3_LMIC",
     "districts": 681,
     "population": 98186856.0,
     "pop_triple_burden_flood": 8470636.988476178,
@@ -2898,6 +3326,8 @@
   {
     "iso3": "PSE",
     "name": "West Bank and Gaza",
+    "region": "MENAAP",
+    "income_group": "3_LMIC",
     "districts": 16,
     "population": 5043612.0,
     "pop_triple_burden_flood": 0.0,
@@ -2908,6 +3338,8 @@
   {
     "iso3": "ZMB",
     "name": "Zambia",
+    "region": "SSA",
+    "income_group": "3_LMIC",
     "districts": 105,
     "population": 20017675.0,
     "pop_triple_burden_flood": 6012842.853637235,
@@ -2926,6 +3358,8 @@
   {
     "iso3": "ZWE",
     "name": "Zimbabwe",
+    "region": "SSA",
+    "income_group": "3_LMIC",
     "districts": 62,
     "population": 16320536.999999998,
     "pop_triple_burden_flood": 0.0,
