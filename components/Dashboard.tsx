@@ -8,6 +8,8 @@ import { Search, Download, MapPin, Users, AlertTriangle, Droplets, TrendingUp, X
 interface CountryStats {
     iso3: string;
     name: string;
+    region: string | null;
+    income_group: string | null;
     districts: number;
     population: number;
     pop_triple_burden_flood: number;
@@ -35,6 +37,9 @@ interface DistrictFeature {
         impsan: number;
         sewlat: number;
         d_lowsan: number;
+        impwat?: number;
+        reg1?: string;
+        incgrp?: string;
         tb_fld: number;
         tb_wtrstr: number;
     };
@@ -67,6 +72,29 @@ const burdenLabels: Record<number, string> = {
     3: 'Triple burden',
 };
 
+// World Bank region codes from the 2_TB dataset — shown as pretty labels,
+// filtered by raw code.
+const regionLabels: Record<string, string> = {
+    EAP: 'East Asia & Pacific',
+    ECA: 'Europe & Central Asia',
+    LAC: 'Latin America & Caribbean',
+    MENAAP: 'MENA, Afghanistan, Pakistan',
+    NorthAm: 'North America',
+    SA: 'South Asia',
+    SSA: 'Sub-Saharan Africa',
+};
+
+const REGION_ORDER = ['SSA', 'SA', 'EAP', 'LAC', 'MENAAP', 'ECA', 'NorthAm'];
+
+const incomeGroupLabels: Record<string, string> = {
+    '1_HIC': 'High income',
+    '2_UMIC': 'Upper middle income',
+    '3_LMIC': 'Lower middle income',
+    '4_LIC': 'Low income',
+};
+
+const INCOME_GROUP_ORDER = ['4_LIC', '3_LMIC', '2_UMIC', '1_HIC'];
+
 export default function Dashboard() {
     // State
     const [countries, setCountries] = useState<CountryStats[]>([]);
@@ -76,6 +104,8 @@ export default function Dashboard() {
     const [isLoadingMap, setIsLoadingMap] = useState(false);
     const [searchQuery, setSearchQuery] = useState('');
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+    const [selectedRegion, setSelectedRegion] = useState<string | null>(null);
+    const [selectedIncomeGroup, setSelectedIncomeGroup] = useState<string | null>(null);
     const [climateRiskType, setClimateRiskType] = useState<ClimateRiskType>('flood');
     const [hoveredDistrict, setHoveredDistrict] = useState<DistrictFeature | null>(null);
     const [tooltipPos, setTooltipPos] = useState({ x: 0, y: 0 });
@@ -94,15 +124,16 @@ export default function Dashboard() {
             });
     }, []);
 
-    // Filtered countries for search
+    // Filtered countries for search + region + income group
     const filteredCountries = useMemo(() => {
-        if (!searchQuery.trim()) return countries;
-        const query = searchQuery.toLowerCase();
-        return countries.filter(c =>
-            c.name.toLowerCase().includes(query) ||
-            c.iso3.toLowerCase().includes(query)
-        );
-    }, [countries, searchQuery]);
+        const query = searchQuery.trim().toLowerCase();
+        return countries.filter(c => {
+            if (selectedRegion && c.region !== selectedRegion) return false;
+            if (selectedIncomeGroup && c.income_group !== selectedIncomeGroup) return false;
+            if (query && !c.name.toLowerCase().includes(query) && !c.iso3.toLowerCase().includes(query)) return false;
+            return true;
+        });
+    }, [countries, searchQuery, selectedRegion, selectedIncomeGroup]);
 
     // Load country GeoJSON when selected
     useEffect(() => {
@@ -263,7 +294,8 @@ export default function Dashboard() {
             'Region', 'District', 'Population', 'Urban Share (%)',
             'Poverty Rate ($2.15)', 'Poverty Rate ($3.65)', 'Poverty Rate ($6.85)',
             'Flood Risk (%)', 'Water Stress Category',
-            'Improved Sanitation (%)', 'Sewer/Septic (%)',
+            'Improved Sanitation (%)', 'Sewer/Septic (%)', 'Improved Water (%)',
+            'WB Region', 'Income Group',
             'Triple Burden (Flood)', 'Triple Burden (Water Stress)'
         ];
 
@@ -279,6 +311,9 @@ export default function Dashboard() {
             f.properties.bws_cat?.toString() || '',
             f.properties.impsan?.toFixed(2) || '',
             f.properties.sewlat?.toFixed(2) || '',
+            f.properties.impwat?.toFixed(2) || '',
+            f.properties.reg1 || '',
+            f.properties.incgrp || '',
             f.properties.tb_fld?.toString() || '',
             f.properties.tb_wtrstr?.toString() || '',
         ]);
@@ -380,7 +415,55 @@ export default function Dashboard() {
                                     exit={{ opacity: 0, y: -10 }}
                                     className="absolute z-50 w-full mt-2 bg-white border border-gray-200 rounded-xl shadow-xl max-h-80 overflow-hidden"
                                 >
-                                    <div className="p-2 border-b">
+                                    <div className="p-2 border-b space-y-2">
+                                        <div className="flex flex-wrap gap-1">
+                                            <button
+                                                onClick={() => setSelectedRegion(null)}
+                                                className={`text-xs px-2 py-1 rounded-full transition-colors ${selectedRegion === null
+                                                    ? 'bg-[var(--climate-teal)] text-white'
+                                                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                                                    }`}
+                                            >
+                                                All regions
+                                            </button>
+                                            {REGION_ORDER.map(code => (
+                                                <button
+                                                    key={code}
+                                                    onClick={() => setSelectedRegion(selectedRegion === code ? null : code)}
+                                                    className={`text-xs px-2 py-1 rounded-full transition-colors ${selectedRegion === code
+                                                        ? 'bg-[var(--climate-teal)] text-white'
+                                                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                                                        }`}
+                                                    title={regionLabels[code]}
+                                                >
+                                                    {code}
+                                                </button>
+                                            ))}
+                                        </div>
+                                        <div className="flex flex-wrap gap-1">
+                                            <button
+                                                onClick={() => setSelectedIncomeGroup(null)}
+                                                className={`text-xs px-2 py-1 rounded-full transition-colors ${selectedIncomeGroup === null
+                                                    ? 'bg-[var(--sanitation-blue)] text-white'
+                                                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                                                    }`}
+                                            >
+                                                All incomes
+                                            </button>
+                                            {INCOME_GROUP_ORDER.map(code => (
+                                                <button
+                                                    key={code}
+                                                    onClick={() => setSelectedIncomeGroup(selectedIncomeGroup === code ? null : code)}
+                                                    className={`text-xs px-2 py-1 rounded-full transition-colors ${selectedIncomeGroup === code
+                                                        ? 'bg-[var(--sanitation-blue)] text-white'
+                                                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                                                        }`}
+                                                    title={incomeGroupLabels[code]}
+                                                >
+                                                    {code.slice(2)}
+                                                </button>
+                                            ))}
+                                        </div>
                                         <div className="relative">
                                             <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
                                             <input
@@ -392,6 +475,11 @@ export default function Dashboard() {
                                                 autoFocus
                                             />
                                         </div>
+                                        {filteredCountries.length === 0 && (
+                                            <div className="text-xs text-gray-500 text-center py-2">
+                                                No countries match these filters
+                                            </div>
+                                        )}
                                     </div>
                                     <div className="overflow-y-auto max-h-60">
                                         {filteredCountries.map((country) => (
@@ -531,8 +619,22 @@ export default function Dashboard() {
                             animate={{ opacity: 1 }}
                             className="lg:col-span-3 modern-card p-6"
                         >
-                            <div className="flex items-center justify-between mb-4">
-                                <h2 className="text-xl font-bold">{selectedCountry.name} - District Map</h2>
+                            <div className="flex items-start justify-between mb-4 gap-4 flex-wrap">
+                                <div>
+                                    <h2 className="text-xl font-bold">{selectedCountry.name} - District Map</h2>
+                                    <div className="flex flex-wrap gap-2 mt-1">
+                                        {selectedCountry.region && (
+                                            <span className="text-xs px-2 py-0.5 rounded-full bg-[var(--climate-teal)]/10 text-[var(--climate-teal)] font-medium">
+                                                {regionLabels[selectedCountry.region] ?? selectedCountry.region}
+                                            </span>
+                                        )}
+                                        {selectedCountry.income_group && (
+                                            <span className="text-xs px-2 py-0.5 rounded-full bg-[var(--sanitation-blue)]/10 text-[var(--sanitation-blue)] font-medium">
+                                                {incomeGroupLabels[selectedCountry.income_group] ?? selectedCountry.income_group}
+                                            </span>
+                                        )}
+                                    </div>
+                                </div>
                                 <button
                                     onClick={downloadCSV}
                                     className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-[var(--climate-teal)] to-[var(--sanitation-blue)] text-white rounded-lg font-medium hover:shadow-lg transition-shadow"
@@ -620,6 +722,12 @@ export default function Dashboard() {
                                                         <div className="flex justify-between">
                                                             <span className="text-gray-600">Sanitation:</span>
                                                             <span className="font-medium">{hoveredDistrict.properties.impsan.toFixed(1)}%</span>
+                                                        </div>
+                                                    )}
+                                                    {hoveredDistrict.properties.impwat != null && (
+                                                        <div className="flex justify-between">
+                                                            <span className="text-gray-600">Improved water:</span>
+                                                            <span className="font-medium">{hoveredDistrict.properties.impwat.toFixed(1)}%</span>
                                                         </div>
                                                     )}
                                                 </div>
