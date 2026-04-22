@@ -19,6 +19,14 @@
   --foreground: #1a1a1a;
   --text-secondary: #666666;
 
+  /* Semantic accents for risk bands */
+  --accent-success: #2e7d32;
+  --accent-success-soft: #e8f5e9;
+  --accent-warning: #d97706;
+  --accent-warning-soft: #fef3c7;
+  --accent-danger: #d32f2f;
+  --accent-danger-soft: #fee2e2;
+
   /* Modern UI additions */
   --glass-bg: rgba(255, 255, 255, 0.7);
   --glass-border: rgba(255, 255, 255, 0.3);
@@ -44,6 +52,10 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-text-secondary: var(--text-secondary);
+
+  --color-accent-success: var(--accent-success);
+  --color-accent-warning: var(--accent-warning);
+  --color-accent-danger: var(--accent-danger);
 }
 
 body {

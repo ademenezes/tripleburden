@@ -1,88 +1,147 @@
+import Link from 'next/link';
 import TripleBurdenVis from '@/components/TripleBurdenVis';
 import Layout from '@/components/Layout';
-import { AlertCircle, Users, Globe, ArrowRight } from 'lucide-react';
+import HomeDataSections from '@/components/home/HomeDataSections';
+import GlobalTripleBurdenMap from '@/components/home/GlobalTripleBurdenMap';
+import SectionHeading from '@/components/shared/SectionHeading';
+import { AlertCircle, Users, ArrowRight } from 'lucide-react';
+
+const CASE_STUDIES = [
+  { iso3: 'BGD', name: 'Bangladesh', flag: '🇧🇩', accent: 'var(--climate-teal)' },
+  { iso3: 'PHL', name: 'Philippines', flag: '🇵🇭', accent: 'var(--sanitation-blue)' },
+  { iso3: 'NGA', name: 'Nigeria', flag: '🇳🇬', accent: 'var(--poverty-earth)' },
+];
 
 export default function Home() {
   return (
     <Layout>
-      {/* Hero Section */}
-      <section className="relative py-24 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-teal-50 to-gray-50 opacity-60"></div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h1 className="text-6xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-[var(--climate-teal)] via-[var(--sanitation-blue)] to-[var(--poverty-earth)] bg-clip-text text-transparent leading-tight">
-              The Global Sanitation Crisis
+      {/* Dark hero with rotating globe */}
+      <section className="relative overflow-hidden bg-[radial-gradient(ellipse_at_top,#0a5257_0%,#062b30_60%,#031518_100%)] text-white">
+        {/* subtle grid texture */}
+        <div
+          className="absolute inset-0 opacity-[0.06] pointer-events-none"
+          style={{
+            backgroundImage:
+              'linear-gradient(rgba(255,255,255,0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.3) 1px, transparent 1px)',
+            backgroundSize: '60px 60px',
+          }}
+        />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 md:pt-24 pb-20">
+          <div className="max-w-3xl">
+            <h1 className="text-5xl md:text-7xl font-bold tracking-tight leading-[1.05]">
+              The Triple Burden.
+              <br />
+              <span className="text-amber-300">Where poverty, climate</span>
+              <br />
+              <span className="text-amber-300">and sanitation collide.</span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto font-light">
-              Understanding the devastating convergence of poverty, climate risk, and inadequate sanitation
-              affecting over <span className="font-semibold text-gray-900">1 billion people</span> in urban areas worldwide.
+            <p className="mt-6 text-lg md:text-xl text-white/75 max-w-2xl leading-relaxed">
+              A district-level view of the 1 billion urban residents living where poverty, climate
+              risk and inadequate sanitation converge — and where the cost falls hardest.
             </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Dynamic Infographic */}
-      <section className="py-20 relative">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <TripleBurdenVis />
-        </div>
-      </section>
-
-      {/* Problem Statement */}
-      <section className="py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold mb-12 text-center">The Problem</h2>
-            <div className="modern-card p-10">
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                Poverty, climate risks, and low access to sanitation services afflict many people in urban areas.
-                This <span className="font-semibold bg-gradient-to-r from-[var(--sanitation-blue)] to-[var(--climate-teal)] bg-clip-text text-transparent">triple burden</span> coalesces
-                to affect between one-quarter and one-third of the urban population in developing countries.
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
-                These three factors do not exist in isolation. They create a <span className="font-semibold text-gray-900">cycle of
-                  inescapable risk</span> where climate change exacerbates sanitation failures, which in turn deepens
-                poverty and health risks. The combination is greater than the sum of its parts.
-              </p>
+            <div className="mt-8 flex gap-3 flex-wrap">
+              <Link
+                href="/dashboard"
+                className="inline-flex items-center gap-2 px-6 py-3 text-[#062b30] font-semibold rounded-lg bg-amber-300 hover:bg-amber-200 shadow-lg transition-all"
+              >
+                Open data explorer
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+              <a
+                href="#global-map"
+                className="inline-flex items-center gap-2 px-6 py-3 font-semibold rounded-lg border border-white/25 text-white/90 hover:bg-white/10 transition-colors"
+              >
+                See the global map
+              </a>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Key Statistics */}
+      {/* Global map section — continues the dark treatment */}
+      <section
+        id="global-map"
+        className="bg-[#062b30] text-white pt-12 md:pt-16 pb-24 border-t border-white/5"
+      >
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <GlobalTripleBurdenMap />
+        </div>
+      </section>
+
+      {/* Venn diagram — concept explainer */}
+      <section className="py-24 bg-gradient-to-b from-white to-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto text-center mb-4">
+            <div className="text-xs font-semibold tracking-[0.22em] uppercase text-[var(--climate-teal)] mb-3">
+              The framework
+            </div>
+            <h2 className="text-3xl md:text-5xl font-bold text-gray-900">
+              Three burdens. One compounding crisis.
+            </h2>
+          </div>
+          <TripleBurdenVis />
+        </div>
+      </section>
+
+      {/* Problem statement */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionHeading as="h2" size="md" align="center" className="mb-10">
+            The problem
+          </SectionHeading>
+          <div className="modern-card p-10">
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              Poverty, climate risk, and inadequate sanitation afflict many people in urban areas.
+              This{' '}
+              <span className="font-semibold bg-gradient-to-r from-[var(--sanitation-blue)] to-[var(--climate-teal)] bg-clip-text text-transparent">
+                triple burden
+              </span>{' '}
+              affects between one-quarter and one-third of the urban population in developing
+              countries.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              These three factors do not exist in isolation. They create a{' '}
+              <span className="font-semibold text-gray-900">cycle of inescapable risk</span> where
+              climate change exacerbates sanitation failures, which in turn deepen poverty and
+              health risks. The combination is greater than the sum of its parts.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Main findings */}
       <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold mb-16 text-center">Main Findings</h2>
+          <SectionHeading as="h2" size="md" align="center" className="mb-14">
+            Main findings
+          </SectionHeading>
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-            {/* Water Stress Card */}
             <div className="modern-card overflow-hidden group">
               <div className="bg-gradient-to-br from-[var(--climate-teal-light)] to-[var(--climate-teal)] text-white p-10">
                 <div className="flex items-center gap-3 mb-6">
                   <div className="p-3 bg-white/20 rounded-xl backdrop-blur-sm">
                     <AlertCircle className="w-7 h-7" />
                   </div>
-                  <h3 className="text-2xl font-bold">Water Stress</h3>
+                  <h3 className="text-2xl font-bold">Water stress scenario</h3>
                 </div>
-                <div className="text-6xl font-bold mb-6">919M</div>
+                <div className="text-6xl font-bold mb-6 tabular-nums">919M</div>
                 <p className="text-lg opacity-95 leading-relaxed">
-                  people (26% of urban population in developing countries) face all three burdens when
-                  water stress is the climate driver
+                  people (26% of urban population in developing countries) face all three burdens
+                  when water stress is the climate driver.
                 </p>
               </div>
             </div>
-
-            {/* Flood Risk Card */}
             <div className="modern-card overflow-hidden group">
               <div className="bg-gradient-to-br from-[var(--sanitation-blue-light)] to-[var(--sanitation-blue)] text-white p-10">
                 <div className="flex items-center gap-3 mb-6">
                   <div className="p-3 bg-white/20 rounded-xl backdrop-blur-sm">
                     <Users className="w-7 h-7" />
                   </div>
-                  <h3 className="text-2xl font-bold">Flood Risk</h3>
+                  <h3 className="text-2xl font-bold">Flood risk scenario</h3>
                 </div>
-                <div className="text-6xl font-bold mb-6">1.1B</div>
+                <div className="text-6xl font-bold mb-6 tabular-nums">1.1B</div>
                 <p className="text-lg opacity-95 leading-relaxed">
-                  people (32% of urban population) are affected when flooding is the climate risk
+                  people (32% of urban population) are affected when flooding is the climate risk.
                 </p>
               </div>
             </div>
@@ -90,84 +149,67 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Regional Impact */}
+      {/* By the Numbers */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-5xl mx-auto">
-            <div className="flex items-center gap-3 mb-12">
-              <div className="p-3 rounded-xl bg-gradient-to-br from-[var(--poverty-earth-light)] to-[var(--poverty-earth)] text-white">
-                <Globe className="w-7 h-7" />
-              </div>
-              <h2 className="text-4xl font-bold">Regional Impact</h2>
-            </div>
-            <div className="modern-card p-10">
-              <div className="space-y-8">
-                <div className="border-l-4 pl-6 py-2" style={{ borderColor: 'var(--climate-teal)' }}>
-                  <h3 className="text-2xl font-semibold mb-4">South Asia: The Epicenter</h3>
-                  <div className="grid grid-cols-2 gap-6">
-                    <div className="p-6 rounded-xl bg-gradient-to-br from-teal-50 to-blue-50">
-                      <span className="text-5xl font-bold bg-gradient-to-r from-[var(--climate-teal)] to-[var(--sanitation-blue)] bg-clip-text text-transparent">57%</span>
-                      <p className="text-sm text-gray-600 mt-2">affected by water stress</p>
-                    </div>
-                    <div className="p-6 rounded-xl bg-gradient-to-br from-blue-50 to-indigo-50">
-                      <span className="text-5xl font-bold bg-gradient-to-r from-[var(--sanitation-blue)] to-[var(--sanitation-blue-dark)] bg-clip-text text-transparent">72%</span>
-                      <p className="text-sm text-gray-600 mt-2">affected by flood risk</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="grid md:grid-cols-3 gap-6 pt-6">
-                  <div className="text-center p-6 rounded-xl bg-gradient-to-br from-amber-50 to-orange-50">
-                    <div className="font-bold text-xl mb-2 text-gray-700">Central Asia</div>
-                    <div className="text-4xl font-bold" style={{ color: 'var(--poverty-earth)' }}>~28%</div>
-                  </div>
-                  <div className="text-center p-6 rounded-xl bg-gradient-to-br from-amber-50 to-orange-50">
-                    <div className="font-bold text-xl mb-2 text-gray-700">MENA</div>
-                    <div className="text-4xl font-bold" style={{ color: 'var(--poverty-earth)' }}>~25%</div>
-                  </div>
-                  <div className="text-center p-6 rounded-xl bg-gradient-to-br from-amber-50 to-orange-50">
-                    <div className="font-bold text-xl mb-2 text-gray-700">Sub-Saharan Africa</div>
-                    <div className="text-4xl font-bold" style={{ color: 'var(--poverty-earth)' }}>~20%</div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <SectionHeading
+              as="h2"
+              size="md"
+              align="center"
+              eyebrow="By the numbers"
+              className="mb-4"
+              subtitle="Toggle between scenarios to see how the burden distributes across regions and income groups."
+            >
+              Where the burden concentrates
+            </SectionHeading>
+          </div>
+          <div className="mt-10">
+            <HomeDataSections />
           </div>
         </div>
       </section>
-      {/* Data Explorer CTA */}
-      <section className="py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold mb-6">Explore the Data</h2>
-          <p className="text-xl text-gray-600 mb-10 max-w-2xl mx-auto">
-            Interactive dashboard with maps and statistics for 200+ countries
-          </p>
-          <a
-            href="/dashboard"
-            className="inline-flex items-center gap-2 px-8 py-4 text-white font-semibold rounded-xl shadow-lg transition-all hover:shadow-2xl hover:scale-105 group"
-            style={{ background: 'linear-gradient(135deg, var(--climate-teal), var(--sanitation-blue))' }}
-          >
-            Open Data Explorer
-            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-          </a>
-        </div>
-      </section>
 
-      {/* Case Studies Teaser */}
+      {/* Case studies */}
       <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold mb-6">Case Studies</h2>
-          <p className="text-xl text-gray-600 mb-10 max-w-2xl mx-auto">
-            Detailed analysis of areas facing the triple burden in Bangladesh, Philippines, and Nigeria
-          </p>
-          <a
-            href="/results"
-            className="inline-flex items-center gap-2 px-8 py-4 text-white font-semibold rounded-xl shadow-lg transition-all hover:shadow-2xl hover:scale-105 group"
-            style={{ background: 'linear-gradient(135deg, var(--poverty-earth), var(--sanitation-blue))' }}
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionHeading
+            as="h2"
+            size="md"
+            align="center"
+            className="mb-10"
+            subtitle="Drill into the districts that drive the headline numbers."
           >
-            Explore Results
-            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-          </a>
+            Case studies
+          </SectionHeading>
+          <div className="grid md:grid-cols-3 gap-4">
+            {CASE_STUDIES.map((c) => (
+              <Link
+                key={c.iso3}
+                href={`/dashboard?country=${c.iso3}`}
+                className="modern-card p-6 flex items-center justify-between gap-4 group"
+                style={{ borderLeft: `4px solid ${c.accent}` }}
+              >
+                <div className="flex items-center gap-3">
+                  <span className="text-3xl" aria-hidden="true">{c.flag}</span>
+                  <div>
+                    <div className="font-bold text-lg">{c.name}</div>
+                    <div className="text-xs text-gray-500">View country profile</div>
+                  </div>
+                </div>
+                <ArrowRight className="w-5 h-5 text-gray-400 group-hover:translate-x-1 transition-transform" />
+              </Link>
+            ))}
+          </div>
+          <div className="mt-10 text-center">
+            <Link
+              href="/results"
+              className="inline-flex items-center gap-2 text-[var(--climate-teal)] font-semibold hover:underline"
+            >
+              Read the full results write-up
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
         </div>
       </section>
     </Layout>

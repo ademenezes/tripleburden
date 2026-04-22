@@ -194,7 +194,7 @@ export default function TripleBurdenVis() {
                     </>
                 )}
 
-                {/* Labels for each burden */}
+                {/* Labels for each burden — centred in the unique area of each circle */}
                 {showLabels && (
                     <>
                         <motion.g
@@ -202,10 +202,10 @@ export default function TripleBurdenVis() {
                             animate={{ opacity: 1 }}
                             transition={{ duration: 0.5, delay: 2 }}
                         >
-                            <text x="300" y="120" textAnchor="middle" className="text-sm font-semibold" fill="#ffffff">
+                            <text x="220" y="195" textAnchor="middle" className="text-sm font-semibold" fill="#ffffff">
                                 {burdens[0].icon} {burdens[0].name}
                             </text>
-                            <text x="300" y="140" textAnchor="middle" className="text-xs" fill="#ffffff" opacity="0.9">
+                            <text x="220" y="215" textAnchor="middle" className="text-[10px]" fill="#ffffff" opacity="0.85">
                                 {burdens[0].description}
                             </text>
                         </motion.g>
@@ -215,10 +215,10 @@ export default function TripleBurdenVis() {
                             animate={{ opacity: 1 }}
                             transition={{ duration: 0.5, delay: 2.2 }}
                         >
-                            <text x="500" y="120" textAnchor="middle" className="text-sm font-semibold" fill="#ffffff">
+                            <text x="580" y="195" textAnchor="middle" className="text-sm font-semibold" fill="#ffffff">
                                 {burdens[1].icon} {burdens[1].name}
                             </text>
-                            <text x="500" y="140" textAnchor="middle" className="text-xs" fill="#ffffff" opacity="0.9">
+                            <text x="580" y="215" textAnchor="middle" className="text-[10px]" fill="#ffffff" opacity="0.85">
                                 {burdens[1].description}
                             </text>
                         </motion.g>
@@ -228,10 +228,10 @@ export default function TripleBurdenVis() {
                             animate={{ opacity: 1 }}
                             transition={{ duration: 0.5, delay: 2.4 }}
                         >
-                            <text x="400" y="450" textAnchor="middle" className="text-sm font-semibold" fill="#ffffff">
+                            <text x="400" y="425" textAnchor="middle" className="text-sm font-semibold" fill="#ffffff">
                                 {burdens[2].icon} {burdens[2].name}
                             </text>
-                            <text x="400" y="470" textAnchor="middle" className="text-xs" fill="#ffffff" opacity="0.9">
+                            <text x="400" y="445" textAnchor="middle" className="text-[10px]" fill="#ffffff" opacity="0.85">
                                 {burdens[2].description}
                             </text>
                         </motion.g>
@@ -296,47 +296,6 @@ export default function TripleBurdenVis() {
                             2
                         </motion.text>
 
-                        {/* Individual burdens - centered in each circle */}
-                        {/* Climate Risk circle (left) */}
-                        <motion.text
-                            x="230"
-                            y="200"
-                            textAnchor="middle"
-                            className="text-2xl font-bold"
-                            fill="#ffffff"
-                            initial={{ opacity: 0 }}
-                            animate={{ opacity: 1 }}
-                            transition={{ delay: 3.1 }}
-                        >
-                            1
-                        </motion.text>
-                        {/* Poverty circle (right) */}
-                        <motion.text
-                            x="570"
-                            y="200"
-                            textAnchor="middle"
-                            className="text-2xl font-bold"
-                            fill="#ffffff"
-                            initial={{ opacity: 0 }}
-                            animate={{ opacity: 1 }}
-                            transition={{ delay: 3.2 }}
-                        >
-                            1
-                        </motion.text>
-                        {/* Low Sanitation circle (bottom) */}
-                        <motion.text
-                            x="400"
-                            y="420"
-                            textAnchor="middle"
-                            className="text-2xl font-bold"
-                            fill="#ffffff"
-                            initial={{ opacity: 0 }}
-                            animate={{ opacity: 1 }}
-                            transition={{ delay: 3.3 }}
-                        >
-                            1
-                        </motion.text>
-
                         {/* Center "3" */}
                         <motion.text
                             x="400"
@@ -359,15 +318,11 @@ export default function TripleBurdenVis() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 3.8 }}
-                className="mt-8 text-center text-sm text-gray-600"
+                className="mt-6 text-center text-sm text-gray-600"
             >
-                <p className="mb-2">
-                    <span className="font-semibold">1</span> = Single burden |
-                    <span className="font-semibold"> 2</span> = Two burdens |
-                    <span className="font-semibold text-yellow-600"> 3</span> = Triple Burden
-                </p>
-                <p className="italic">
-                    The convergence creates a cycle of inescapable risk
+                <p>
+                    <span className="font-semibold"> 2</span> = Two burdens overlap ·
+                    <span className="font-semibold text-amber-600"> 3</span> = Triple burden
                 </p>
             </motion.div>
         </div>
