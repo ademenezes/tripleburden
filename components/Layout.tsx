@@ -27,14 +27,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               className="flex items-center gap-2.5 group"
             >
               <BrandMark size={34} className="transition-transform group-hover:scale-105" />
-              <div className="leading-none">
-                <div className="text-[10px] tracking-[0.22em] uppercase text-gray-500 font-semibold">
-                  World Bank
-                </div>
-                <div className="text-lg font-bold text-[var(--sanitation-blue)]">
-                  Triple Burden
-                </div>
-              </div>
+              <span className="text-lg font-bold text-[var(--sanitation-blue)] leading-none">
+                Triple Burden
+              </span>
             </Link>
 
             <div className="hidden md:flex gap-1">
