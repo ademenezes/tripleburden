@@ -280,6 +280,20 @@ export default function Dashboard() {
         return typeof burdenValue === 'number' ? burdenValue : -1;
     };
 
+    // Which of the 3 dimensions flag this district for the current climate risk
+    // mode. The overall burden level is the count of `active` here.
+    const getBurdenBreakdown = (feature: DistrictFeature): { label: string; active: boolean }[] => {
+        const p = feature.properties;
+        const climate = climateRiskType === 'flood'
+            ? { label: 'Flood risk', active: p.d_fld === 1 }
+            : { label: 'Water stress', active: p.d_wtrstr === 1 };
+        return [
+            { label: 'Poverty', active: p.d_pov === 1 },
+            climate,
+            { label: 'Low sanitation', active: p.d_lowsan === 1 },
+        ];
+    };
+
     // Handle mouse events for tooltip
     const handleMouseMove = (e: React.MouseEvent, feature: DistrictFeature) => {
         setHoveredDistrict(feature);
@@ -300,6 +314,7 @@ export default function Dashboard() {
             'Flood Risk (%)', 'Water Stress Category',
             'Improved Sanitation (%)', 'Sewer/Septic (%)', 'Improved Water (%)',
             'WB Region', 'Income Group',
+            'Poverty Flag', 'Flood Flag', 'Water Stress Flag', 'Low Sanitation Flag',
             'Triple Burden (Flood)', 'Triple Burden (Water Stress)'
         ];
 
@@ -318,6 +333,10 @@ export default function Dashboard() {
             f.properties.impwat?.toFixed(2) || '',
             f.properties.reg1 || '',
             f.properties.incgrp || '',
+            f.properties.d_pov?.toString() || '',
+            f.properties.d_fld?.toString() || '',
+            f.properties.d_wtrstr?.toString() || '',
+            f.properties.d_lowsan?.toString() || '',
             f.properties.tb_fld?.toString() || '',
             f.properties.tb_wtrstr?.toString() || '',
         ]);
@@ -715,6 +734,25 @@ export default function Dashboard() {
                                                         >
                                                             {burdenLabels[getBurdenLevel(hoveredDistrict)] || 'No data'}
                                                         </span>
+                                                    </div>
+                                                    <div className="pt-2 mt-1 border-t border-gray-100">
+                                                        <div className="text-xs text-gray-500 mb-1">Dimensions flagged:</div>
+                                                        {getBurdenBreakdown(hoveredDistrict).map(d => (
+                                                            <div key={d.label} className="flex items-center gap-2 text-sm">
+                                                                <span
+                                                                    className={`inline-flex items-center justify-center w-4 h-4 rounded-full text-[10px] font-bold ${d.active
+                                                                        ? 'bg-red-500 text-white'
+                                                                        : 'bg-gray-100 text-gray-400'
+                                                                        }`}
+                                                                    aria-hidden="true"
+                                                                >
+                                                                    {d.active ? '✓' : '–'}
+                                                                </span>
+                                                                <span className={d.active ? 'font-medium text-gray-800' : 'text-gray-400'}>
+                                                                    {d.label}
+                                                                </span>
+                                                            </div>
+                                                        ))}
                                                     </div>
                                                     {hoveredDistrict.properties.p215ln != null && (
                                                         <div className="flex justify-between">
